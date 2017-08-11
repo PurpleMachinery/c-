@@ -1,0 +1,4 @@
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\exercicios_console_3\bin\Debug\exercicios_console_3.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\exercicios_console_3\bin\Debug\exercicios_console_3.pdb
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\exercicios_console_3\obj\x86\Debug\exercicios_console_3.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\exercicios_console_3\obj\x86\Debug\exercicios_console_3.pdb

@@ -1,0 +1,4 @@
+C:\Users\Aluno_2\Desktop\C-\Aula1_ExercicioPg40\Aula1_ExercicioPg40\bin\Debug\Aula1_ExercicioPg40.exe
+C:\Users\Aluno_2\Desktop\C-\Aula1_ExercicioPg40\Aula1_ExercicioPg40\bin\Debug\Aula1_ExercicioPg40.pdb
+C:\Users\Aluno_2\Desktop\C-\Aula1_ExercicioPg40\Aula1_ExercicioPg40\obj\x86\Debug\Aula1_ExercicioPg40.exe
+C:\Users\Aluno_2\Desktop\C-\Aula1_ExercicioPg40\Aula1_ExercicioPg40\obj\x86\Debug\Aula1_ExercicioPg40.pdb

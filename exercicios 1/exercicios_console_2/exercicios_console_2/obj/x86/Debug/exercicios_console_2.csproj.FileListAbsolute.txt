@@ -1,0 +1,6 @@
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\exercicios_console_2\bin\Debug\exercicios_console_2.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\exercicios_console_2\bin\Debug\exercicios_console_2.pdb
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\exercicios_console_2\obj\x86\Debug\exercicios_console_2.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\exercicios_console_2\obj\x86\Debug\exercicios_console_2.pdb
+C:\Users\Aluno_2\Desktop\c-\exercicios 1\exercicios_console_2\exercicios_console_2\obj\x86\Debug\exercicios_console_2.exe
+C:\Users\Aluno_2\Desktop\c-\exercicios 1\exercicios_console_2\exercicios_console_2\obj\x86\Debug\exercicios_console_2.pdb

@@ -1,0 +1,7 @@
+C:\Users\Aluno_2\Desktop\C-\C-\C-\bin\Debug\C-.exe
+C:\Users\Aluno_2\Desktop\C-\C-\C-\bin\Debug\C-.pdb
+C:\Users\Aluno_2\Desktop\C-\C-\C-\obj\x86\Debug\C-.csprojResolveAssemblyReference.cache
+C:\Users\Aluno_2\Desktop\C-\C-\C-\obj\x86\Debug\C-.exe
+C:\Users\Aluno_2\Desktop\C-\C-\C-\obj\x86\Debug\C-.pdb
+C:\Users\Aluno_2\Desktop\C-\ExConsole\C-\obj\x86\Debug\C-.exe
+C:\Users\Aluno_2\Desktop\C-\ExConsole\C-\obj\x86\Debug\C-.pdb

@@ -1,0 +1,7 @@
+C:\Users\Aluno_2\Desktop\C-\ExGráfico\ExGráfico\bin\Debug\ExGráfico.exe
+C:\Users\Aluno_2\Desktop\C-\ExGráfico\ExGráfico\bin\Debug\ExGráfico.pdb
+C:\Users\Aluno_2\Desktop\C-\ExGráfico\ExGráfico\obj\x86\Debug\ExGráfico.frmPriProg.resources
+C:\Users\Aluno_2\Desktop\C-\ExGráfico\ExGráfico\obj\x86\Debug\ExGráfico.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\C-\ExGráfico\ExGráfico\obj\x86\Debug\ExGráfico.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\Desktop\C-\ExGráfico\ExGráfico\obj\x86\Debug\ExGráfico.exe
+C:\Users\Aluno_2\Desktop\C-\ExGráfico\ExGráfico\obj\x86\Debug\ExGráfico.pdb

@@ -1,0 +1,4 @@
+C:\Users\Aluno_2\Desktop\c-\exercicios_console_1\exercicio_console_2\bin\Debug\exercicio_console_2.exe
+C:\Users\Aluno_2\Desktop\c-\exercicios_console_1\exercicio_console_2\bin\Debug\exercicio_console_2.pdb
+C:\Users\Aluno_2\Desktop\c-\exercicios_console_1\exercicio_console_2\obj\x86\Debug\exercicio_console_2.exe
+C:\Users\Aluno_2\Desktop\c-\exercicios_console_1\exercicio_console_2\obj\x86\Debug\exercicio_console_2.pdb
