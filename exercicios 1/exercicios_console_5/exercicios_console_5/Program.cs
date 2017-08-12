@@ -9,8 +9,15 @@ namespace exercicios_console_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("For:");
+
             int x = int.Parse(Console.ReadLine());
+            if (x > 50 || x < 1)
+            {
+                Console.WriteLine("número inválido");
+                Console.ReadKey();
+                return;
+            }
+            Console.WriteLine("For:");
             for (int i = 1; i <= x; i++)
             {
                 Console.WriteLine(i);
