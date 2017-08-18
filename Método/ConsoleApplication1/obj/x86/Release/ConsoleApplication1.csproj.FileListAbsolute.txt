@@ -1,0 +1,4 @@
+C:\Users\Aluno_2\Desktop\c-\Método\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Users\Aluno_2\Desktop\c-\Método\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Users\Aluno_2\Desktop\c-\Método\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.exe
+C:\Users\Aluno_2\Desktop\c-\Método\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.pdb
