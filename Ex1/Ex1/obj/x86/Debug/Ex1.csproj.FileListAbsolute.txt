@@ -1,0 +1,4 @@
+C:\Users\Aluno_2\Desktop\c-\Ex1\Ex1\bin\Debug\Ex1.exe
+C:\Users\Aluno_2\Desktop\c-\Ex1\Ex1\bin\Debug\Ex1.pdb
+C:\Users\Aluno_2\Desktop\c-\Ex1\Ex1\obj\x86\Debug\Ex1.exe
+C:\Users\Aluno_2\Desktop\c-\Ex1\Ex1\obj\x86\Debug\Ex1.pdb
