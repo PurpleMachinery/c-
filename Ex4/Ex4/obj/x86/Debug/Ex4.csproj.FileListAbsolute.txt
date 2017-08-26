@@ -2,3 +2,4 @@ C:\Users\Aluno_2\Desktop\c-\Ex4\Ex4\bin\Debug\Ex4.exe
 C:\Users\Aluno_2\Desktop\c-\Ex4\Ex4\bin\Debug\Ex4.pdb
 C:\Users\Aluno_2\Desktop\c-\Ex4\Ex4\obj\x86\Debug\Ex4.exe
 C:\Users\Aluno_2\Desktop\c-\Ex4\Ex4\obj\x86\Debug\Ex4.pdb
+C:\Users\Aluno_2\Desktop\c-\Ex4\Ex4\obj\x86\Debug\Ex4.csprojResolveAssemblyReference.cache

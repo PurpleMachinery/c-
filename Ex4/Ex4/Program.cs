@@ -7,23 +7,28 @@ namespace ConsoleApplication1
 {
     class Program
     {
-        static void calcularPesoIdeal(double x, char y)
+        static double calcularPesoIdeal(double x, char y)
         {
-            if (y == 'h'||y=='H')
+            if (y == 'm'||y=='M')
             {
-                Console.WriteLine("Peso ideal: " + (x * 72.7 - 58));
+                return x * 72.7 - 58;
             }
-            else if(y == 'm'||y=='M')
+            else if(y == 'f'||y=='F')
             {
-                Console.WriteLine("Peso ideal: " + (x * 62.1 - 44.7));
+                return x * 62.1 - 44.7;
             }
+            return 0;
         }
         static void Main(string[] args)
         {
-            Console.Write("Digite 'H' para homem, ou 'M' para mulher: ");
-            char l=char.Parse(Console.ReadLine());
+            Console.Write("Digite 'M' para homem e 'F' para mulher: ");
+            char l = char.Parse(Console.ReadLine());
             Console.Write("Digite a altura: ");
-            calcularPesoIdeal(double.Parse(Console.ReadLine()), l);
+            double alt = double.Parse(Console.ReadLine());
+            Console.WriteLine("Valor ideal: " + calcularPesoIdeal(alt, l));
+
+
+
             Console.ReadKey();
         }
     }
