@@ -1,0 +1,9 @@
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\CalculoDaMedia\bin\Debug\CalculoDaMedia.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\CalculoDaMedia\bin\Debug\CalculoDaMedia.pdb
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\CalculoDaMedia\obj\x86\Debug\CalculoDaMedia.frmMedia.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\CalculoDaMedia\obj\x86\Debug\CalculoDaMedia.Properties.Resources.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\CalculoDaMedia\obj\x86\Debug\CalculoDaMedia.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\CalculoDaMedia\obj\x86\Debug\CalculoDaMedia.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\CalculoDaMedia\obj\x86\Debug\CalculoDaMedia.pdb
+C:\Users\Aluno_2\Desktop\c-\CalculoDaMedia\CalculoDaMedia\obj\x86\Debug\CalculoDaMedia.exe
+C:\Users\Aluno_2\Desktop\c-\CalculoDaMedia\CalculoDaMedia\obj\x86\Debug\CalculoDaMedia.pdb

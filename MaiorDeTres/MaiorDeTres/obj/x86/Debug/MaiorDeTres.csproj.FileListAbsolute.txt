@@ -1,0 +1,7 @@
+C:\Users\Aluno_2\Desktop\c-\MaiorDeTres\MaiorDeTres\obj\x86\Debug\MaiorDeTres.frmMaiorValorDeTres.resources
+C:\Users\Aluno_2\Desktop\c-\MaiorDeTres\MaiorDeTres\obj\x86\Debug\MaiorDeTres.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\c-\MaiorDeTres\MaiorDeTres\obj\x86\Debug\MaiorDeTres.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\Desktop\c-\MaiorDeTres\MaiorDeTres\bin\Debug\MaiorDeTres.exe
+C:\Users\Aluno_2\Desktop\c-\MaiorDeTres\MaiorDeTres\bin\Debug\MaiorDeTres.pdb
+C:\Users\Aluno_2\Desktop\c-\MaiorDeTres\MaiorDeTres\obj\x86\Debug\MaiorDeTres.exe
+C:\Users\Aluno_2\Desktop\c-\MaiorDeTres\MaiorDeTres\obj\x86\Debug\MaiorDeTres.pdb
