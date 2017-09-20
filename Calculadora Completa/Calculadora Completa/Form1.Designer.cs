@@ -44,6 +44,7 @@
             this.btnResult = new System.Windows.Forms.Button();
             this.btnMult = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.btn0 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txbVisor
@@ -157,6 +158,7 @@
             this.btnSoma.TabIndex = 10;
             this.btnSoma.Text = "+";
             this.btnSoma.UseVisualStyleBackColor = true;
+            this.btnSoma.Click += new System.EventHandler(this.btnSoma_Click);
             // 
             // btnSub
             // 
@@ -166,6 +168,7 @@
             this.btnSub.TabIndex = 11;
             this.btnSub.Text = "-";
             this.btnSub.UseVisualStyleBackColor = true;
+            this.btnSub.Click += new System.EventHandler(this.btnSub_Click);
             // 
             // btnDiv
             // 
@@ -175,12 +178,13 @@
             this.btnDiv.TabIndex = 12;
             this.btnDiv.Text = "/";
             this.btnDiv.UseVisualStyleBackColor = true;
+            this.btnDiv.Click += new System.EventHandler(this.btnDiv_Click);
             // 
             // btnResult
             // 
-            this.btnResult.Location = new System.Drawing.Point(12, 274);
+            this.btnResult.Location = new System.Drawing.Point(108, 274);
             this.btnResult.Name = "btnResult";
-            this.btnResult.Size = new System.Drawing.Size(266, 56);
+            this.btnResult.Size = new System.Drawing.Size(171, 56);
             this.btnResult.TabIndex = 13;
             this.btnResult.Text = "=";
             this.btnResult.UseVisualStyleBackColor = true;
@@ -194,6 +198,7 @@
             this.btnMult.TabIndex = 14;
             this.btnMult.Text = "X";
             this.btnMult.UseVisualStyleBackColor = true;
+            this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
             // btnClear
             // 
@@ -205,11 +210,22 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // btn0
+            // 
+            this.btn0.Location = new System.Drawing.Point(12, 274);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(75, 56);
+            this.btn0.TabIndex = 17;
+            this.btn0.Text = "0";
+            this.btn0.UseVisualStyleBackColor = true;
+            this.btn0.Click += new System.EventHandler(this.btn0_Click);
+            // 
             // frmCalculadoraC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(390, 354);
+            this.Controls.Add(this.btn0);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnMult);
             this.Controls.Add(this.btnResult);
@@ -251,6 +267,7 @@
         private System.Windows.Forms.Button btnResult;
         private System.Windows.Forms.Button btnMult;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btn0;
     }
 }
 

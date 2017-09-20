@@ -12,7 +12,7 @@ namespace Calculadora_Completa
     public partial class frmCalculadoraC : Form
     {
         double a=0;
-        char c;
+        char c='.';
         public frmCalculadoraC()
         {
             InitializeComponent();
@@ -65,13 +65,161 @@ namespace Calculadora_Completa
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            a = 0;
             txbVisor.Text = "";
+            a = 0;
+            c = '.';
         }
 
         private void btnResult_Click(object sender, EventArgs e)
         {
+            if (c == '+')
+            {
+                a += Double.Parse(txbVisor.Text);
+                c = '.';
+            }
+            else if (c == '-')
+            {
+                a -= Double.Parse(txbVisor.Text);
+                c = '.';
+            }
+            else if (c == '*')
+            {
+                a *= Double.Parse(txbVisor.Text);
+                c = '.';
+            }
+            else if (c == '/')
+            {
+                a /= Double.Parse(txbVisor.Text);
+                c = '.';
+            }
             txbVisor.Text = "" + a;
+            a = 0;
+            c = '.';
+        }
+
+        private void btnSoma_Click(object sender, EventArgs e)
+        {
+            if (a == 0 && c == '.')
+            {
+                a = Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if(c=='+')
+            {
+                a = a + Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '-')
+            {
+                a = a - Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '/')
+            {
+                a = a / Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '*')
+            {
+                a = a * Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            c = '+';
+        }
+
+        private void btnSub_Click(object sender, EventArgs e)
+        {
+            if (a == 0 && c == '.')
+            {
+                a = Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '+')
+            {
+                a = a + Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '-')
+            {
+                a = a - Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '/')
+            {
+                a = a / Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '*')
+            {
+                a = a * Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            c = '-';
+        }
+
+        private void btnDiv_Click(object sender, EventArgs e)
+        {
+            if (a == 0 && c == '.')
+            {
+                a = Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '+')
+            {
+                a = a + Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '-')
+            {
+                a = a - Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '/')
+            {
+                a = a / Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '*')
+            {
+                a = a * Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            c = '/';
+        }
+
+        private void btnMult_Click(object sender, EventArgs e)
+        {
+            if (a == 0 && c == '.')
+            {
+                a = Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '+')
+            {
+                a = a + Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '-')
+            {
+                a = a - Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '/')
+            {
+                a = a / Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            else if (c == '*')
+            {
+                a = a * Double.Parse(txbVisor.Text);
+                txbVisor.Text = "";
+            }
+            c = '*';
+        }
+
+        private void btn0_Click(object sender, EventArgs e)
+        {
+            txbVisor.Text += "0";
         }
     }
 }
