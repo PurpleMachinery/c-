@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Cadastro
 {
-    public partial class Form1 : Form
+    public partial class frmCadastro : Form
     {
-        public Form1()
+        public frmCadastro()
         {
             InitializeComponent();
         }
@@ -32,6 +32,14 @@ namespace Cadastro
                 porc = 15;
             }
             MessageBox.Show(txbNome.Text + " " + txbSobrenome.Text + "\nAumento: "+ porc + "%" + "\nSálario Atual: " + txbSálario.Text + "\nSálario Atualizado: " + (System.Convert.ToDouble(txbSálario.Text)+((System.Convert.ToDouble(txbSálario.Text) / 100) * porc)));
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txbIdade.Text = "";
+            txbNome.Text = "";
+            txbSálario.Text = "";
+            txbSobrenome.Text = "";
         }
     }
 }
