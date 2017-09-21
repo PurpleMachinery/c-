@@ -14,3 +14,4 @@ C:\Users\Aluno_2\Desktop\c#\c-\CalculadoraBasica\CalculadoraBasica\bin\Debug\Cal
 C:\Users\Aluno_2\Desktop\c#\c-\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.frmPrincipal.resources
 C:\Users\Aluno_2\Desktop\c#\c-\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.Properties.Resources.resources
 C:\Users\Aluno_2\Desktop\c#\c-\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\Desktop\c#\c-\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.csprojResolveAssemblyReference.cache

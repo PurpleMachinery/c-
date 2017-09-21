@@ -43,5 +43,21 @@ namespace CalculadoraBasica
             resultado = System.Convert.ToDouble(txbValor1.Text) / System.Convert.ToDouble(txbValor2.Text);
             lblResultado.Text = "" + resultado;
         }
+
+        private void txbValor1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != (char)8)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txbValor2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != (char)8)
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

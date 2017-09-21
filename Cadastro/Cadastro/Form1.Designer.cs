@@ -105,6 +105,7 @@
             this.txbNome.Size = new System.Drawing.Size(887, 20);
             this.txbNome.TabIndex = 5;
             this.txbNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbNome_KeyPress);
             // 
             // txbSobrenome
             // 
@@ -114,6 +115,7 @@
             this.txbSobrenome.Size = new System.Drawing.Size(887, 20);
             this.txbSobrenome.TabIndex = 6;
             this.txbSobrenome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbSobrenome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbNome_KeyPress);
             // 
             // txbIdade
             // 
@@ -123,6 +125,7 @@
             this.txbIdade.Size = new System.Drawing.Size(887, 20);
             this.txbIdade.TabIndex = 7;
             this.txbIdade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbIdade.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbIdade_KeyPress);
             // 
             // txbSálario
             // 
@@ -132,6 +135,7 @@
             this.txbSálario.Size = new System.Drawing.Size(887, 20);
             this.txbSálario.TabIndex = 8;
             this.txbSálario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbSálario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbSálario_KeyPress);
             // 
             // btnLimpar
             // 

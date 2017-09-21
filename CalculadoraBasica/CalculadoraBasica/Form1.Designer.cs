@@ -46,6 +46,7 @@
             this.txbValor1.Size = new System.Drawing.Size(221, 20);
             this.txbValor1.TabIndex = 1;
             this.txbValor1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbValor1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbValor1_KeyPress);
             // 
             // txbValor2
             // 
