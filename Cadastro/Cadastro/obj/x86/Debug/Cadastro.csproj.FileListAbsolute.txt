@@ -1,0 +1,9 @@
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Cadastro\obj\x86\Debug\Cadastro.Form1.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Cadastro\obj\x86\Debug\Cadastro.Properties.Resources.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Cadastro\obj\x86\Debug\Cadastro.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Cadastro\bin\Debug\Cadastro.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Cadastro\bin\Debug\Cadastro.pdb
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Cadastro\obj\x86\Debug\Cadastro.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Cadastro\obj\x86\Debug\Cadastro.pdb
+C:\Users\Aluno_2\Desktop\c#\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.exe
+C:\Users\Aluno_2\Desktop\c#\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.pdb
