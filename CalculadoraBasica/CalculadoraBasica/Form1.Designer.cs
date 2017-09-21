@@ -45,6 +45,7 @@
             this.txbValor1.Name = "txbValor1";
             this.txbValor1.Size = new System.Drawing.Size(221, 20);
             this.txbValor1.TabIndex = 1;
+            this.txbValor1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbValor2
             // 
@@ -52,6 +53,7 @@
             this.txbValor2.Name = "txbValor2";
             this.txbValor2.Size = new System.Drawing.Size(221, 20);
             this.txbValor2.TabIndex = 2;
+            this.txbValor2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblValor1
             // 
@@ -123,7 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(284, 252);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnDividir);
             this.Controls.Add(this.btnMult);
