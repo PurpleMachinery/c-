@@ -45,6 +45,8 @@
             this.btnMult = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btn0 = new System.Windows.Forms.Button();
+            this.btnVirgula = new System.Windows.Forms.Button();
+            this.lbl0 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txbVisor
@@ -182,9 +184,9 @@
             // 
             // btnResult
             // 
-            this.btnResult.Location = new System.Drawing.Point(108, 274);
+            this.btnResult.Location = new System.Drawing.Point(203, 274);
             this.btnResult.Name = "btnResult";
-            this.btnResult.Size = new System.Drawing.Size(171, 56);
+            this.btnResult.Size = new System.Drawing.Size(76, 56);
             this.btnResult.TabIndex = 13;
             this.btnResult.Text = "=";
             this.btnResult.UseVisualStyleBackColor = true;
@@ -220,11 +222,32 @@
             this.btn0.UseVisualStyleBackColor = true;
             this.btn0.Click += new System.EventHandler(this.btn0_Click);
             // 
+            // btnVirgula
+            // 
+            this.btnVirgula.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVirgula.Location = new System.Drawing.Point(107, 274);
+            this.btnVirgula.Name = "btnVirgula";
+            this.btnVirgula.Size = new System.Drawing.Size(75, 56);
+            this.btnVirgula.TabIndex = 18;
+            this.btnVirgula.Text = ",";
+            this.btnVirgula.UseVisualStyleBackColor = true;
+            this.btnVirgula.Click += new System.EventHandler(this.btnVirgula_Click);
+            // 
+            // lbl0
+            // 
+            this.lbl0.AutoSize = true;
+            this.lbl0.Location = new System.Drawing.Point(315, 337);
+            this.lbl0.Name = "lbl0";
+            this.lbl0.Size = new System.Drawing.Size(0, 13);
+            this.lbl0.TabIndex = 19;
+            // 
             // frmCalculadoraC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(390, 354);
+            this.Controls.Add(this.lbl0);
+            this.Controls.Add(this.btnVirgula);
             this.Controls.Add(this.btn0);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnMult);
@@ -268,6 +291,8 @@
         private System.Windows.Forms.Button btnMult;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btn0;
+        private System.Windows.Forms.Button btnVirgula;
+        private System.Windows.Forms.Label lbl0;
     }
 }
 

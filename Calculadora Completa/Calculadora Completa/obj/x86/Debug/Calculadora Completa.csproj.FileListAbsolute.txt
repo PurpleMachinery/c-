@@ -15,3 +15,11 @@ C:\Users\C0M0D0\Desktop\Temporario\c-\Calculadora Completa\Calculadora Completa\
 C:\Users\C0M0D0\Desktop\Temporario\c-\Calculadora Completa\Calculadora Completa\obj\x86\Debug\Calculadora_Completa.Properties.Resources.resources
 C:\Users\C0M0D0\Desktop\Temporario\c-\Calculadora Completa\Calculadora Completa\obj\x86\Debug\Calculadora Completa.csproj.GenerateResource.Cache
 C:\Users\C0M0D0\Desktop\Temporario\c-\Calculadora Completa\Calculadora Completa\obj\x86\Debug\Calculadora Completa.csprojResolveAssemblyReference.cache
+C:\Users\Aluno_2\Desktop\c-\Calculadora Completa\Calculadora Completa\obj\x86\Debug\Calculadora Completa.exe
+C:\Users\Aluno_2\Desktop\c-\Calculadora Completa\Calculadora Completa\obj\x86\Debug\Calculadora Completa.pdb
+C:\Users\Aluno_2\Desktop\c-\Calculadora Completa\Calculadora Completa\bin\Debug\Calculadora Completa.exe
+C:\Users\Aluno_2\Desktop\c-\Calculadora Completa\Calculadora Completa\bin\Debug\Calculadora Completa.pdb
+C:\Users\Aluno_2\Desktop\c-\Calculadora Completa\Calculadora Completa\obj\x86\Debug\Calculadora Completa.csprojResolveAssemblyReference.cache
+C:\Users\Aluno_2\Desktop\c-\Calculadora Completa\Calculadora Completa\obj\x86\Debug\Calculadora_Completa.frmCalculadoraC.resources
+C:\Users\Aluno_2\Desktop\c-\Calculadora Completa\Calculadora Completa\obj\x86\Debug\Calculadora_Completa.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\c-\Calculadora Completa\Calculadora Completa\obj\x86\Debug\Calculadora Completa.csproj.GenerateResource.Cache

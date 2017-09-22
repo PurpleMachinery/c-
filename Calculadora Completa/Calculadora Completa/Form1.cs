@@ -221,5 +221,13 @@ namespace Calculadora_Completa
         {
             txbVisor.Text += "0";
         }
+        int kk=0;
+        private void btnVirgula_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i == txbVisor.Text.Length - 1; i++)
+            {
+                if (txbVisor.Text[i] != ',') txbVisor.Text += ',';
+            }
+        }
     }
 }
