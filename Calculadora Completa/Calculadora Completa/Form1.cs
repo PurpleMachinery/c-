@@ -75,22 +75,18 @@ namespace Calculadora_Completa
             if (c == '+')
             {
                 a += Double.Parse(txbVisor.Text);
-                c = '.';
             }
             else if (c == '-')
             {
                 a -= Double.Parse(txbVisor.Text);
-                c = '.';
             }
             else if (c == '*')
             {
                 a *= Double.Parse(txbVisor.Text);
-                c = '.';
             }
             else if (c == '/')
             {
-                a /= Double.Parse(txbVisor.Text);
-                c = '.';
+                a /= Double.Parse(txbVisor.Text);                
             }
             txbVisor.Text = "" + a;
             a = 0;
@@ -104,24 +100,9 @@ namespace Calculadora_Completa
                 a = Double.Parse(txbVisor.Text);
                 txbVisor.Text = "";
             }
-            else if(c=='+')
+            else 
             {
-                a = a + Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '-')
-            {
-                a = a - Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '/')
-            {
-                a = a / Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '*')
-            {
-                a = a * Double.Parse(txbVisor.Text);
+                a = Calculo(a, c, txbVisor.Text);
                 txbVisor.Text = "";
             }
             c = '+';
@@ -134,24 +115,9 @@ namespace Calculadora_Completa
                 a = Double.Parse(txbVisor.Text);
                 txbVisor.Text = "";
             }
-            else if (c == '+')
+            else
             {
-                a = a + Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '-')
-            {
-                a = a - Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '/')
-            {
-                a = a / Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '*')
-            {
-                a = a * Double.Parse(txbVisor.Text);
+                a = Calculo(a, c, txbVisor.Text);
                 txbVisor.Text = "";
             }
             c = '-';
@@ -164,24 +130,9 @@ namespace Calculadora_Completa
                 a = Double.Parse(txbVisor.Text);
                 txbVisor.Text = "";
             }
-            else if (c == '+')
+            else
             {
-                a = a + Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '-')
-            {
-                a = a - Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '/')
-            {
-                a = a / Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '*')
-            {
-                a = a * Double.Parse(txbVisor.Text);
+                a = Calculo(a, c, txbVisor.Text);
                 txbVisor.Text = "";
             }
             c = '/';
@@ -194,24 +145,9 @@ namespace Calculadora_Completa
                 a = Double.Parse(txbVisor.Text);
                 txbVisor.Text = "";
             }
-            else if (c == '+')
+            else
             {
-                a = a + Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '-')
-            {
-                a = a - Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '/')
-            {
-                a = a / Double.Parse(txbVisor.Text);
-                txbVisor.Text = "";
-            }
-            else if (c == '*')
-            {
-                a = a * Double.Parse(txbVisor.Text);
+                a = Calculo(a, c, txbVisor.Text);
                 txbVisor.Text = "";
             }
             c = '*';
@@ -221,13 +157,54 @@ namespace Calculadora_Completa
         {
             txbVisor.Text += "0";
         }
-        int kk=0;
         private void btnVirgula_Click(object sender, EventArgs e)
         {
             for (int i = 0; i == txbVisor.Text.Length - 1; i++)
             {
                 if (txbVisor.Text[i] != ',') txbVisor.Text += ',';
             }
+        }
+
+        private void btnApagar_Click(object sender, EventArgs e)
+        {
+            txbVisor.Text = Position(txbVisor.Text);
+        }
+
+        public static String Position(String a)
+        {
+            String b="";
+            for (int i = 0; i < a.Length - 1; i++)
+            {
+                b += a[i];
+            }
+            String c = b;
+            b = "";
+            return c;
+            
+        }
+        public static double Calculo(double a, char c, String txbVisor)
+        {
+            if (c == '+')
+            {
+                a = a + Double.Parse(txbVisor);
+                txbVisor = "";
+            }
+            else if (c == '-')
+            {
+                a = a - Double.Parse(txbVisor);
+                txbVisor = "";
+            }
+            else if (c == '/')
+            {
+                a = a / Double.Parse(txbVisor);
+                txbVisor = "";
+            }
+            else if (c == '*')
+            {
+                a = a * Double.Parse(txbVisor);
+                txbVisor= "";
+            }
+            return a;
         }
     }
 }

@@ -47,6 +47,7 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnVirgula = new System.Windows.Forms.Button();
             this.lbl0 = new System.Windows.Forms.Label();
+            this.btnApagar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txbVisor
@@ -56,9 +57,9 @@
             this.txbVisor.Enabled = false;
             this.txbVisor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbVisor.ForeColor = System.Drawing.Color.Black;
-            this.txbVisor.Location = new System.Drawing.Point(13, 13);
+            this.txbVisor.Location = new System.Drawing.Point(107, 13);
             this.txbVisor.Name = "txbVisor";
-            this.txbVisor.Size = new System.Drawing.Size(266, 20);
+            this.txbVisor.Size = new System.Drawing.Size(172, 20);
             this.txbVisor.TabIndex = 0;
             this.txbVisor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -204,7 +205,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(303, 13);
+            this.btnClear.Location = new System.Drawing.Point(13, 12);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 15;
@@ -241,11 +242,23 @@
             this.lbl0.Size = new System.Drawing.Size(0, 13);
             this.lbl0.TabIndex = 19;
             // 
+            // btnApagar
+            // 
+            this.btnApagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApagar.Location = new System.Drawing.Point(303, 13);
+            this.btnApagar.Name = "btnApagar";
+            this.btnApagar.Size = new System.Drawing.Size(75, 23);
+            this.btnApagar.TabIndex = 20;
+            this.btnApagar.Text = "◄";
+            this.btnApagar.UseVisualStyleBackColor = true;
+            this.btnApagar.Click += new System.EventHandler(this.btnApagar_Click);
+            // 
             // frmCalculadoraC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(390, 354);
+            this.Controls.Add(this.btnApagar);
             this.Controls.Add(this.lbl0);
             this.Controls.Add(this.btnVirgula);
             this.Controls.Add(this.btn0);
@@ -266,7 +279,7 @@
             this.Controls.Add(this.btn7);
             this.Controls.Add(this.txbVisor);
             this.Name = "frmCalculadoraC";
-            this.Text = "Form1";
+            this.Text = "Calculadora";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,6 +306,7 @@
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnVirgula;
         private System.Windows.Forms.Label lbl0;
+        private System.Windows.Forms.Button btnApagar;
     }
 }
 
