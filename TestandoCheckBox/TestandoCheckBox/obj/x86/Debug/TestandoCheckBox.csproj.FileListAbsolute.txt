@@ -1,0 +1,7 @@
+C:\Users\Aluno_2\Desktop\c-\TestandoCheckBox\TestandoCheckBox\bin\Debug\TestandoCheckBox.exe
+C:\Users\Aluno_2\Desktop\c-\TestandoCheckBox\TestandoCheckBox\bin\Debug\TestandoCheckBox.pdb
+C:\Users\Aluno_2\Desktop\c-\TestandoCheckBox\TestandoCheckBox\obj\x86\Debug\WindowsFormsApplication1.frmFazendoPedidos.resources
+C:\Users\Aluno_2\Desktop\c-\TestandoCheckBox\TestandoCheckBox\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\c-\TestandoCheckBox\TestandoCheckBox\obj\x86\Debug\TestandoCheckBox.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\Desktop\c-\TestandoCheckBox\TestandoCheckBox\obj\x86\Debug\TestandoCheckBox.exe
+C:\Users\Aluno_2\Desktop\c-\TestandoCheckBox\TestandoCheckBox\obj\x86\Debug\TestandoCheckBox.pdb

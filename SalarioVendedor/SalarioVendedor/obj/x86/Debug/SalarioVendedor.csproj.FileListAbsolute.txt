@@ -1,0 +1,9 @@
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\SalarioVendedor\bin\Debug\SalarioVendedor.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\SalarioVendedor\bin\Debug\SalarioVendedor.pdb
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\SalarioVendedor\obj\x86\Debug\SalarioVendedor.frmSalarioVendedor.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\SalarioVendedor\obj\x86\Debug\SalarioVendedor.Properties.Resources.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\SalarioVendedor\obj\x86\Debug\SalarioVendedor.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\SalarioVendedor\obj\x86\Debug\SalarioVendedor.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\SalarioVendedor\obj\x86\Debug\SalarioVendedor.pdb
+C:\Users\Aluno_2\Desktop\c-\SalarioVendedor\SalarioVendedor\obj\x86\Debug\SalarioVendedor.exe
+C:\Users\Aluno_2\Desktop\c-\SalarioVendedor\SalarioVendedor\obj\x86\Debug\SalarioVendedor.pdb
