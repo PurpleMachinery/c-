@@ -57,15 +57,15 @@
             this.txbVisor.Enabled = false;
             this.txbVisor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbVisor.ForeColor = System.Drawing.Color.Black;
-            this.txbVisor.Location = new System.Drawing.Point(107, 13);
+            this.txbVisor.Location = new System.Drawing.Point(53, 9);
             this.txbVisor.Name = "txbVisor";
-            this.txbVisor.Size = new System.Drawing.Size(172, 20);
+            this.txbVisor.Size = new System.Drawing.Size(241, 20);
             this.txbVisor.TabIndex = 0;
             this.txbVisor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btn7
             // 
-            this.btn7.Location = new System.Drawing.Point(12, 58);
+            this.btn7.Location = new System.Drawing.Point(12, 39);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(75, 53);
             this.btn7.TabIndex = 1;
@@ -75,7 +75,7 @@
             // 
             // btn4
             // 
-            this.btn4.Location = new System.Drawing.Point(12, 133);
+            this.btn4.Location = new System.Drawing.Point(11, 98);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(75, 53);
             this.btn4.TabIndex = 2;
@@ -85,7 +85,7 @@
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(13, 206);
+            this.btn1.Location = new System.Drawing.Point(12, 157);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(75, 53);
             this.btn1.TabIndex = 3;
@@ -95,7 +95,7 @@
             // 
             // btn8
             // 
-            this.btn8.Location = new System.Drawing.Point(107, 58);
+            this.btn8.Location = new System.Drawing.Point(93, 39);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(75, 53);
             this.btn8.TabIndex = 4;
@@ -105,7 +105,7 @@
             // 
             // btn5
             // 
-            this.btn5.Location = new System.Drawing.Point(107, 133);
+            this.btn5.Location = new System.Drawing.Point(93, 98);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(75, 53);
             this.btn5.TabIndex = 5;
@@ -115,7 +115,7 @@
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(108, 206);
+            this.btn2.Location = new System.Drawing.Point(93, 157);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(75, 53);
             this.btn2.TabIndex = 6;
@@ -125,7 +125,7 @@
             // 
             // btn9
             // 
-            this.btn9.Location = new System.Drawing.Point(203, 58);
+            this.btn9.Location = new System.Drawing.Point(174, 39);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(75, 53);
             this.btn9.TabIndex = 7;
@@ -135,7 +135,7 @@
             // 
             // btn6
             // 
-            this.btn6.Location = new System.Drawing.Point(203, 133);
+            this.btn6.Location = new System.Drawing.Point(174, 98);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(75, 53);
             this.btn6.TabIndex = 8;
@@ -145,7 +145,7 @@
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(204, 206);
+            this.btn3.Location = new System.Drawing.Point(174, 157);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(75, 53);
             this.btn3.TabIndex = 9;
@@ -155,7 +155,7 @@
             // 
             // btnSoma
             // 
-            this.btnSoma.Location = new System.Drawing.Point(303, 58);
+            this.btnSoma.Location = new System.Drawing.Point(255, 39);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(75, 53);
             this.btnSoma.TabIndex = 10;
@@ -165,7 +165,7 @@
             // 
             // btnSub
             // 
-            this.btnSub.Location = new System.Drawing.Point(303, 133);
+            this.btnSub.Location = new System.Drawing.Point(255, 98);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(75, 53);
             this.btnSub.TabIndex = 11;
@@ -175,7 +175,7 @@
             // 
             // btnDiv
             // 
-            this.btnDiv.Location = new System.Drawing.Point(303, 206);
+            this.btnDiv.Location = new System.Drawing.Point(255, 157);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(75, 53);
             this.btnDiv.TabIndex = 12;
@@ -185,7 +185,7 @@
             // 
             // btnResult
             // 
-            this.btnResult.Location = new System.Drawing.Point(203, 274);
+            this.btnResult.Location = new System.Drawing.Point(174, 216);
             this.btnResult.Name = "btnResult";
             this.btnResult.Size = new System.Drawing.Size(76, 56);
             this.btnResult.TabIndex = 13;
@@ -195,7 +195,7 @@
             // 
             // btnMult
             // 
-            this.btnMult.Location = new System.Drawing.Point(303, 274);
+            this.btnMult.Location = new System.Drawing.Point(256, 216);
             this.btnMult.Name = "btnMult";
             this.btnMult.Size = new System.Drawing.Size(75, 56);
             this.btnMult.TabIndex = 14;
@@ -205,9 +205,9 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(13, 12);
+            this.btnClear.Location = new System.Drawing.Point(11, 9);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.Size = new System.Drawing.Size(37, 23);
             this.btnClear.TabIndex = 15;
             this.btnClear.Text = "C";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -215,7 +215,7 @@
             // 
             // btn0
             // 
-            this.btn0.Location = new System.Drawing.Point(12, 274);
+            this.btn0.Location = new System.Drawing.Point(11, 216);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(75, 56);
             this.btn0.TabIndex = 17;
@@ -226,7 +226,7 @@
             // btnVirgula
             // 
             this.btnVirgula.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVirgula.Location = new System.Drawing.Point(107, 274);
+            this.btnVirgula.Location = new System.Drawing.Point(93, 216);
             this.btnVirgula.Name = "btnVirgula";
             this.btnVirgula.Size = new System.Drawing.Size(75, 56);
             this.btnVirgula.TabIndex = 18;
@@ -245,9 +245,9 @@
             // btnApagar
             // 
             this.btnApagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApagar.Location = new System.Drawing.Point(303, 13);
+            this.btnApagar.Location = new System.Drawing.Point(300, 9);
             this.btnApagar.Name = "btnApagar";
-            this.btnApagar.Size = new System.Drawing.Size(75, 23);
+            this.btnApagar.Size = new System.Drawing.Size(29, 23);
             this.btnApagar.TabIndex = 20;
             this.btnApagar.Text = "◄";
             this.btnApagar.UseVisualStyleBackColor = true;
@@ -257,7 +257,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(390, 354);
+            this.ClientSize = new System.Drawing.Size(341, 277);
             this.Controls.Add(this.btnApagar);
             this.Controls.Add(this.lbl0);
             this.Controls.Add(this.btnVirgula);

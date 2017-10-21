@@ -1,0 +1,8 @@
+C:\Users\Aluno_2\Desktop\c-\Menus\Menus\bin\Debug\Menus.exe
+C:\Users\Aluno_2\Desktop\c-\Menus\Menus\bin\Debug\Menus.pdb
+C:\Users\Aluno_2\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.frmMenu.resources
+C:\Users\Aluno_2\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.exe
+C:\Users\Aluno_2\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.pdb
+C:\Users\Aluno_2\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.frmTeste1.resources

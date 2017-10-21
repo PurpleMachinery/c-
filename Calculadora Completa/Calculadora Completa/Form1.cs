@@ -112,7 +112,7 @@ namespace Calculadora_Completa
         {
             if (a == 0 && c == '.')
             {
-                a = Double.Parse(txbVisor.Text);
+                if (txbVisor.Text != "") a = Double.Parse(txbVisor.Text);
                 txbVisor.Text = "";
             }
             else
