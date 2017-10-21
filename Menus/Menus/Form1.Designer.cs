@@ -97,7 +97,7 @@
             // stsComminSon
             // 
             this.stsComminSon.Name = "stsComminSon";
-            this.stsComminSon.Size = new System.Drawing.Size(152, 22);
+            this.stsComminSon.Size = new System.Drawing.Size(143, 22);
             this.stsComminSon.Text = "commin-son";
             // 
             // tsPrincipal
