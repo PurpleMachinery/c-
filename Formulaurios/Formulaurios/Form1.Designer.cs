@@ -31,9 +31,10 @@
             this.msPrincipal = new System.Windows.Forms.MenuStrip();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.poupançaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pizzariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pizzariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cinemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.msPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +51,7 @@
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cinemaToolStripMenuItem,
             this.poupançaToolStripMenuItem,
             this.pizzariaToolStripMenuItem,
             this.toolStripSeparator1,
@@ -65,6 +67,13 @@
             this.poupançaToolStripMenuItem.Text = "Poupança";
             this.poupançaToolStripMenuItem.Click += new System.EventHandler(this.poupançaToolStripMenuItem_Click);
             // 
+            // pizzariaToolStripMenuItem
+            // 
+            this.pizzariaToolStripMenuItem.Name = "pizzariaToolStripMenuItem";
+            this.pizzariaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pizzariaToolStripMenuItem.Text = "Pizzaria";
+            this.pizzariaToolStripMenuItem.Click += new System.EventHandler(this.pizzariaToolStripMenuItem_Click);
+            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
@@ -76,12 +85,12 @@
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
-            // pizzariaToolStripMenuItem
+            // cinemaToolStripMenuItem
             // 
-            this.pizzariaToolStripMenuItem.Name = "pizzariaToolStripMenuItem";
-            this.pizzariaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.pizzariaToolStripMenuItem.Text = "Pizzaria";
-            this.pizzariaToolStripMenuItem.Click += new System.EventHandler(this.pizzariaToolStripMenuItem_Click);
+            this.cinemaToolStripMenuItem.Name = "cinemaToolStripMenuItem";
+            this.cinemaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cinemaToolStripMenuItem.Text = "Cinema";
+            this.cinemaToolStripMenuItem.Click += new System.EventHandler(this.cinemaToolStripMenuItem_Click);
             // 
             // frmMenu
             // 
@@ -109,6 +118,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pizzariaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cinemaToolStripMenuItem;
     }
 }
 

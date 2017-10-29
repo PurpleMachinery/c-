@@ -16,3 +16,4 @@ C:\Users\C0M0D0\Desktop\Temporario\c-\Formulaurios\Formulaurios\obj\x86\Debug\Wi
 C:\Users\C0M0D0\Desktop\Temporario\c-\Formulaurios\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.frmPoupança.resources
 C:\Users\C0M0D0\Desktop\Temporario\c-\Formulaurios\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\C0M0D0\Desktop\Temporario\c-\Formulaurios\Formulaurios\obj\x86\Debug\Formulaurios.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.frmCinema.resources

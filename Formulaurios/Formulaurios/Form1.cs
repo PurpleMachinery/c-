@@ -29,5 +29,12 @@ namespace WindowsFormsApplication1
             p.MdiParent = this;
             p.Show();
         }
+
+        private void cinemaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCinema p = new frmCinema();
+            p.MdiParent = this;
+            p.Show();
+        }
     }
 }
