@@ -35,14 +35,19 @@
             this.lblN4 = new System.Windows.Forms.Label();
             this.mtxbCpf = new System.Windows.Forms.MaskedTextBox();
             this.txbNome = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txbEndereco = new System.Windows.Forms.TextBox();
             this.btnVerificar = new System.Windows.Forms.Button();
             this.lblIdade = new System.Windows.Forms.Label();
             this.nudIdade = new System.Windows.Forms.NumericUpDown();
             this.btnComprar = new System.Windows.Forms.Button();
             this.txbTotal = new System.Windows.Forms.TextBox();
             this.lblValorTotal = new System.Windows.Forms.Label();
+            this.lblValorBruto = new System.Windows.Forms.Label();
+            this.txbVbruto = new System.Windows.Forms.TextBox();
+            this.lblDesc = new System.Windows.Forms.Label();
+            this.txbDesc = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.nudIdade)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txbDesc)).BeginInit();
             this.SuspendLayout();
             // 
             // lbLivros
@@ -61,7 +66,7 @@
             "Bruxaria – Wicked Vol 01 – Nancy Holder – R$ 35,00",
             "A Redenção do Anjo Caído – Fabio Baptista – R$ 45,00",
             "Psicopatas do Cotidiano – Katia Mecler – R$ 25,00"});
-            this.lbLivros.Location = new System.Drawing.Point(41, 103);
+            this.lbLivros.Location = new System.Drawing.Point(40, 73);
             this.lbLivros.Name = "lbLivros";
             this.lbLivros.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.lbLivros.Size = new System.Drawing.Size(442, 116);
@@ -71,7 +76,7 @@
             // 
             this.lblN1.AutoSize = true;
             this.lblN1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblN1.Location = new System.Drawing.Point(132, 80);
+            this.lblN1.Location = new System.Drawing.Point(131, 50);
             this.lblN1.Name = "lblN1";
             this.lblN1.Size = new System.Drawing.Size(258, 20);
             this.lblN1.TabIndex = 2;
@@ -123,13 +128,13 @@
             this.txbNome.Size = new System.Drawing.Size(106, 20);
             this.txbNome.TabIndex = 7;
             // 
-            // textBox1
+            // txbEndereco
             // 
-            this.textBox1.Location = new System.Drawing.Point(225, 299);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(207, 37);
-            this.textBox1.TabIndex = 8;
+            this.txbEndereco.Location = new System.Drawing.Point(225, 299);
+            this.txbEndereco.Multiline = true;
+            this.txbEndereco.Name = "txbEndereco";
+            this.txbEndereco.Size = new System.Drawing.Size(207, 37);
+            this.txbEndereco.TabIndex = 8;
             // 
             // btnVerificar
             // 
@@ -167,36 +172,85 @@
             this.btnComprar.TabIndex = 12;
             this.btnComprar.Text = "Comprar";
             this.btnComprar.UseVisualStyleBackColor = true;
+            this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
             // 
             // txbTotal
             // 
-            this.txbTotal.Location = new System.Drawing.Point(225, 342);
+            this.txbTotal.Enabled = false;
+            this.txbTotal.Location = new System.Drawing.Point(225, 370);
             this.txbTotal.Name = "txbTotal";
             this.txbTotal.Size = new System.Drawing.Size(106, 20);
             this.txbTotal.TabIndex = 13;
+            this.txbTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblValorTotal
             // 
             this.lblValorTotal.AutoSize = true;
             this.lblValorTotal.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValorTotal.Location = new System.Drawing.Point(82, 340);
+            this.lblValorTotal.Location = new System.Drawing.Point(82, 368);
             this.lblValorTotal.Name = "lblValorTotal";
             this.lblValorTotal.Size = new System.Drawing.Size(72, 20);
             this.lblValorTotal.TabIndex = 14;
             this.lblValorTotal.Text = "Valor Total";
+            // 
+            // lblValorBruto
+            // 
+            this.lblValorBruto.AutoSize = true;
+            this.lblValorBruto.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorBruto.Location = new System.Drawing.Point(82, 348);
+            this.lblValorBruto.Name = "lblValorBruto";
+            this.lblValorBruto.Size = new System.Drawing.Size(75, 20);
+            this.lblValorBruto.TabIndex = 15;
+            this.lblValorBruto.Text = "Valor Bruto";
+            // 
+            // txbVbruto
+            // 
+            this.txbVbruto.Enabled = false;
+            this.txbVbruto.Location = new System.Drawing.Point(225, 343);
+            this.txbVbruto.Name = "txbVbruto";
+            this.txbVbruto.Size = new System.Drawing.Size(106, 20);
+            this.txbVbruto.TabIndex = 16;
+            this.txbVbruto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lblDesc
+            // 
+            this.lblDesc.AutoSize = true;
+            this.lblDesc.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDesc.Location = new System.Drawing.Point(82, 209);
+            this.lblDesc.Name = "lblDesc";
+            this.lblDesc.Size = new System.Drawing.Size(102, 20);
+            this.lblDesc.TabIndex = 17;
+            this.lblDesc.Text = "% do Desconto";
+            // 
+            // txbDesc
+            // 
+            this.txbDesc.Location = new System.Drawing.Point(225, 209);
+            this.txbDesc.Name = "txbDesc";
+            this.txbDesc.Size = new System.Drawing.Size(49, 20);
+            this.txbDesc.TabIndex = 18;
+            this.txbDesc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbDesc.Value = new decimal(new int[] {
+            70,
+            0,
+            0,
+            0});
             // 
             // frmList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(514, 518);
+            this.Controls.Add(this.txbDesc);
+            this.Controls.Add(this.lblDesc);
+            this.Controls.Add(this.txbVbruto);
+            this.Controls.Add(this.lblValorBruto);
             this.Controls.Add(this.lblValorTotal);
             this.Controls.Add(this.txbTotal);
             this.Controls.Add(this.btnComprar);
             this.Controls.Add(this.nudIdade);
             this.Controls.Add(this.lblIdade);
             this.Controls.Add(this.btnVerificar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txbEndereco);
             this.Controls.Add(this.txbNome);
             this.Controls.Add(this.mtxbCpf);
             this.Controls.Add(this.lblN4);
@@ -205,8 +259,10 @@
             this.Controls.Add(this.lblN1);
             this.Controls.Add(this.lbLivros);
             this.Name = "frmList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "INDEX";
             ((System.ComponentModel.ISupportInitialize)(this.nudIdade)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txbDesc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,13 +277,17 @@
         private System.Windows.Forms.Label lblN4;
         private System.Windows.Forms.MaskedTextBox mtxbCpf;
         private System.Windows.Forms.TextBox txbNome;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txbEndereco;
         private System.Windows.Forms.Button btnVerificar;
         private System.Windows.Forms.Label lblIdade;
         private System.Windows.Forms.NumericUpDown nudIdade;
         private System.Windows.Forms.Button btnComprar;
         private System.Windows.Forms.TextBox txbTotal;
         private System.Windows.Forms.Label lblValorTotal;
+        private System.Windows.Forms.Label lblValorBruto;
+        private System.Windows.Forms.TextBox txbVbruto;
+        private System.Windows.Forms.Label lblDesc;
+        private System.Windows.Forms.NumericUpDown txbDesc;
     }
 }
 

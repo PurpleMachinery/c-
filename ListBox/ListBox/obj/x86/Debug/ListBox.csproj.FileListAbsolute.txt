@@ -7,3 +7,8 @@ C:\Users\Aluno_2\AppData\Local\Temporary Projects\ListBox\obj\x86\Debug\ListBox.
 C:\Users\Aluno_2\AppData\Local\Temporary Projects\ListBox\obj\x86\Debug\ListBox.pdb
 C:\Users\Aluno_2\Desktop\c-\ListBox\ListBox\obj\x86\Debug\ListBox.exe
 C:\Users\Aluno_2\Desktop\c-\ListBox\ListBox\obj\x86\Debug\ListBox.pdb
+C:\Users\Aluno_2\Desktop\c-\ListBox\ListBox\bin\Debug\ListBox.exe
+C:\Users\Aluno_2\Desktop\c-\ListBox\ListBox\bin\Debug\ListBox.pdb
+C:\Users\Aluno_2\Desktop\c-\ListBox\ListBox\obj\x86\Debug\ListBox.frmList.resources
+C:\Users\Aluno_2\Desktop\c-\ListBox\ListBox\obj\x86\Debug\ListBox.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\c-\ListBox\ListBox\obj\x86\Debug\ListBox.csproj.GenerateResource.Cache
