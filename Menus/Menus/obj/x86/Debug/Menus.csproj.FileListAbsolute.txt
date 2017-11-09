@@ -6,3 +6,5 @@ C:\Users\Aluno_2\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.csproj.GenerateResou
 C:\Users\Aluno_2\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.exe
 C:\Users\Aluno_2\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.pdb
 C:\Users\Aluno_2\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.frmTeste1.resources
+C:\Users\Aluno\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.exe
+C:\Users\Aluno\Desktop\c-\Menus\Menus\obj\x86\Debug\Menus.pdb

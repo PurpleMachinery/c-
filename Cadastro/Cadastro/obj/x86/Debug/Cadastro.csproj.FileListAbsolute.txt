@@ -13,3 +13,5 @@ C:\Users\Aluno_2\Desktop\c#\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.Properti
 C:\Users\Aluno_2\Desktop\c#\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.csproj.GenerateResource.Cache
 C:\Users\Aluno_2\Desktop\c#\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.frmCadastro.resources
 C:\Users\Aluno_2\Desktop\c#\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Desktop\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.exe
+C:\Users\Aluno\Desktop\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.pdb

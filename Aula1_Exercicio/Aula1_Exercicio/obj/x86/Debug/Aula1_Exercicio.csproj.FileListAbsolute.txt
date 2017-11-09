@@ -4,3 +4,5 @@ C:\Users\Aluno_2\AppData\Local\Temporary Projects\Aula1_Exercicio\obj\x86\Debug\
 C:\Users\Aluno_2\AppData\Local\Temporary Projects\Aula1_Exercicio\obj\x86\Debug\Aula1_Exercicio.pdb
 C:\Users\Aluno_2\Desktop\C-\Aula1_Exercicio\Aula1_Exercicio\obj\x86\Debug\Aula1_Exercicio.exe
 C:\Users\Aluno_2\Desktop\C-\Aula1_Exercicio\Aula1_Exercicio\obj\x86\Debug\Aula1_Exercicio.pdb
+C:\Users\Aluno\Desktop\c-\Aula1_Exercicio\Aula1_Exercicio\obj\x86\Debug\Aula1_Exercicio.exe
+C:\Users\Aluno\Desktop\c-\Aula1_Exercicio\Aula1_Exercicio\obj\x86\Debug\Aula1_Exercicio.pdb

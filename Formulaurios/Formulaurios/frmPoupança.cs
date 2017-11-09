@@ -23,5 +23,13 @@ namespace WindowsFormsApplication1
             k = p * (Math.Pow(1 + i, n) - 1) / i;
             txbResult.Text = ""+k;
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txbMeses.Text = "";
+            txbResult.Text = "";
+            txbTaxa.Text = "";
+            txbValor.Text = "";
+        }
     }
 }
