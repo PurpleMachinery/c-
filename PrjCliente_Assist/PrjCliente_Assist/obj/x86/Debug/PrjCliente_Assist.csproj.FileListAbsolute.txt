@@ -1,0 +1,8 @@
+C:\Users\Aluno_2\Desktop\c-\PrjCliente_Assist\PrjCliente_Assist\bin\Debug\PrjCliente_Assist.exe.config
+C:\Users\Aluno_2\Desktop\c-\PrjCliente_Assist\PrjCliente_Assist\bin\Debug\PrjCliente_Assist.exe
+C:\Users\Aluno_2\Desktop\c-\PrjCliente_Assist\PrjCliente_Assist\bin\Debug\PrjCliente_Assist.pdb
+C:\Users\Aluno_2\Desktop\c-\PrjCliente_Assist\PrjCliente_Assist\obj\x86\Debug\PrjCliente_Assist.Form1.resources
+C:\Users\Aluno_2\Desktop\c-\PrjCliente_Assist\PrjCliente_Assist\obj\x86\Debug\PrjCliente_Assist.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\c-\PrjCliente_Assist\PrjCliente_Assist\obj\x86\Debug\PrjCliente_Assist.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\Desktop\c-\PrjCliente_Assist\PrjCliente_Assist\obj\x86\Debug\PrjCliente_Assist.exe
+C:\Users\Aluno_2\Desktop\c-\PrjCliente_Assist\PrjCliente_Assist\obj\x86\Debug\PrjCliente_Assist.pdb
