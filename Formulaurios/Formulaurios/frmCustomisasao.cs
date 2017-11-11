@@ -31,7 +31,7 @@ namespace WindowsFormsApplication1
             if (ckbSuspencao.Checked) total += 450;
             if (ckbMotor.Checked) total += 799;
 
-            txbValorTotal.Text =""+ total;
+            txbValorTotal.Text = "" + total;
         }
     }
 }
