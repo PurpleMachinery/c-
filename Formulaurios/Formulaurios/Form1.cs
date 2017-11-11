@@ -36,5 +36,12 @@ namespace WindowsFormsApplication1
             p.MdiParent = this;
             p.Show();
         }
+
+        private void customToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCustom p = new frmCustom();
+            p.MdiParent = this;
+            p.Show();
+        }
     }
 }

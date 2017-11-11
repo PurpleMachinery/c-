@@ -29,3 +29,5 @@ C:\Users\Aluno\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\WindowsFormsAp
 C:\Users\Aluno\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Aluno\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Aluno\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Aluno_2\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\Formulaurios.csprojResolveAssemblyReference.cache
+C:\Users\Aluno_2\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.frmCustom.resources
