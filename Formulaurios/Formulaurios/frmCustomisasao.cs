@@ -14,6 +14,10 @@ namespace WindowsFormsApplication1
         public frmCustom()
         {
             InitializeComponent();
+            for (int i = 2020; i > 1960; i--)
+            {
+                cbAno.Items.Add(i);
+            }
         }
 
         private void btnVerificarTotal_Click(object sender, EventArgs e)

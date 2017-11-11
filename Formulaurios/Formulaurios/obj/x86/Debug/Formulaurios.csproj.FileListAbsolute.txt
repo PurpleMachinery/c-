@@ -31,3 +31,15 @@ C:\Users\Aluno\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\GenerateResour
 C:\Users\Aluno\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Aluno_2\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\Formulaurios.csprojResolveAssemblyReference.cache
 C:\Users\Aluno_2\Desktop\c-\Formulaurios\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.frmCustom.resources
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\obj\x86\Debug\Formulaurios.exe
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\obj\x86\Debug\Formulaurios.pdb
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\bin\Debug\Formulaurios.exe
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\bin\Debug\Formulaurios.pdb
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\obj\x86\Debug\Formulaurios.csprojResolveAssemblyReference.cache
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.frmMenu.resources
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.frmCinema.resources
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.frmCustom.resources
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.frmPizzaria.resources
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.frmPoupança.resources
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\wesley\Formulaurios\obj\x86\Debug\Formulaurios.csproj.GenerateResource.Cache
