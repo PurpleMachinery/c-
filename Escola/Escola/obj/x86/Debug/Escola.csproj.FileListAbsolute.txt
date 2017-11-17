@@ -10,3 +10,4 @@ C:\Users\Aluno_2\Desktop\c-\Escola\Escola\obj\x86\Debug\Escola.pdb
 C:\Users\Aluno_2\Desktop\c-\Escola\Escola\obj\x86\Debug\Escola.frmAlunos.resources
 C:\Users\Aluno_2\Desktop\c-\Escola\Escola\obj\x86\Debug\Escola.frmDiciplina.resources
 C:\Users\Aluno_2\Desktop\c-\Escola\Escola\obj\x86\Debug\Escola.frmMencoes.resources
+C:\Users\Aluno_2\Desktop\c-\Escola\Escola\obj\x86\Debug\Escola.csprojResolveAssemblyReference.cache
