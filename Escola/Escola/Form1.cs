@@ -57,5 +57,23 @@ namespace Escola
             a.MdiParent = this;
             a.Show();
         }
+
+        private void toolStripButton1_Click_1(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Deseja Sair?", "sair", MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                MessageBox.Show("Ficando...");
+            }
+            else
+            {
+                MessageBox.Show("Saindo...");
+                Application.Exit();
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = "Hora: " + DateTime.Now.ToString("HH:mm:ss");
+        }
     }
 }
