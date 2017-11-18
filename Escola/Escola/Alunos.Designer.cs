@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAlunos));
             System.Windows.Forms.Label matriculaLabel;
             System.Windows.Forms.Label nomeLabel;
             System.Windows.Forms.Label nascLabel;
@@ -39,7 +40,6 @@
             System.Windows.Forms.Label cepLabel;
             System.Windows.Forms.Label rGLabel;
             System.Windows.Forms.Label telefoneLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAlunos));
             this.bd_EscolaDataSet = new Escola.Bd_EscolaDataSet();
             this.alunosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.alunosTableAdapter = new Escola.Bd_EscolaDataSetTableAdapters.AlunosTableAdapter();
@@ -57,16 +57,6 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.alunosBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.matriculaLabel1 = new System.Windows.Forms.Label();
-            this.nomeTextBox = new System.Windows.Forms.TextBox();
-            this.nascDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.enderecoTextBox = new System.Windows.Forms.TextBox();
-            this.numeroTextBox = new System.Windows.Forms.TextBox();
-            this.bairroTextBox = new System.Windows.Forms.TextBox();
-            this.cidadeTextBox = new System.Windows.Forms.TextBox();
-            this.cepTextBox = new System.Windows.Forms.TextBox();
-            this.rGTextBox = new System.Windows.Forms.TextBox();
-            this.telefoneTextBox = new System.Windows.Forms.TextBox();
             this.alunosDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -78,6 +68,16 @@
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.matriculaLabel1 = new System.Windows.Forms.Label();
+            this.nomeTextBox = new System.Windows.Forms.TextBox();
+            this.nascDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.enderecoTextBox = new System.Windows.Forms.TextBox();
+            this.numeroTextBox = new System.Windows.Forms.TextBox();
+            this.bairroTextBox = new System.Windows.Forms.TextBox();
+            this.cidadeTextBox = new System.Windows.Forms.TextBox();
+            this.cepMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.rGMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.telefoneTextBox = new System.Windows.Forms.TextBox();
             matriculaLabel = new System.Windows.Forms.Label();
             nomeLabel = new System.Windows.Forms.Label();
             nascLabel = new System.Windows.Forms.Label();
@@ -94,96 +94,6 @@
             this.alunosBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.alunosDataGridView)).BeginInit();
             this.SuspendLayout();
-            // 
-            // matriculaLabel
-            // 
-            matriculaLabel.AutoSize = true;
-            matriculaLabel.Location = new System.Drawing.Point(12, 39);
-            matriculaLabel.Name = "matriculaLabel";
-            matriculaLabel.Size = new System.Drawing.Size(53, 13);
-            matriculaLabel.TabIndex = 1;
-            matriculaLabel.Text = "Matricula:";
-            // 
-            // nomeLabel
-            // 
-            nomeLabel.AutoSize = true;
-            nomeLabel.Location = new System.Drawing.Point(12, 68);
-            nomeLabel.Name = "nomeLabel";
-            nomeLabel.Size = new System.Drawing.Size(38, 13);
-            nomeLabel.TabIndex = 3;
-            nomeLabel.Text = "Nome:";
-            // 
-            // nascLabel
-            // 
-            nascLabel.AutoSize = true;
-            nascLabel.Location = new System.Drawing.Point(12, 95);
-            nascLabel.Name = "nascLabel";
-            nascLabel.Size = new System.Drawing.Size(35, 13);
-            nascLabel.TabIndex = 5;
-            nascLabel.Text = "Nasc:";
-            // 
-            // enderecoLabel
-            // 
-            enderecoLabel.AutoSize = true;
-            enderecoLabel.Location = new System.Drawing.Point(12, 120);
-            enderecoLabel.Name = "enderecoLabel";
-            enderecoLabel.Size = new System.Drawing.Size(56, 13);
-            enderecoLabel.TabIndex = 7;
-            enderecoLabel.Text = "Endereco:";
-            // 
-            // numeroLabel
-            // 
-            numeroLabel.AutoSize = true;
-            numeroLabel.Location = new System.Drawing.Point(12, 146);
-            numeroLabel.Name = "numeroLabel";
-            numeroLabel.Size = new System.Drawing.Size(45, 13);
-            numeroLabel.TabIndex = 9;
-            numeroLabel.Text = "numero:";
-            // 
-            // bairroLabel
-            // 
-            bairroLabel.AutoSize = true;
-            bairroLabel.Location = new System.Drawing.Point(12, 172);
-            bairroLabel.Name = "bairroLabel";
-            bairroLabel.Size = new System.Drawing.Size(36, 13);
-            bairroLabel.TabIndex = 11;
-            bairroLabel.Text = "bairro:";
-            // 
-            // cidadeLabel
-            // 
-            cidadeLabel.AutoSize = true;
-            cidadeLabel.Location = new System.Drawing.Point(12, 198);
-            cidadeLabel.Name = "cidadeLabel";
-            cidadeLabel.Size = new System.Drawing.Size(42, 13);
-            cidadeLabel.TabIndex = 13;
-            cidadeLabel.Text = "cidade:";
-            // 
-            // cepLabel
-            // 
-            cepLabel.AutoSize = true;
-            cepLabel.Location = new System.Drawing.Point(12, 224);
-            cepLabel.Name = "cepLabel";
-            cepLabel.Size = new System.Drawing.Size(28, 13);
-            cepLabel.TabIndex = 15;
-            cepLabel.Text = "cep:";
-            // 
-            // rGLabel
-            // 
-            rGLabel.AutoSize = true;
-            rGLabel.Location = new System.Drawing.Point(12, 250);
-            rGLabel.Name = "rGLabel";
-            rGLabel.Size = new System.Drawing.Size(26, 13);
-            rGLabel.TabIndex = 17;
-            rGLabel.Text = "RG:";
-            // 
-            // telefoneLabel
-            // 
-            telefoneLabel.AutoSize = true;
-            telefoneLabel.Location = new System.Drawing.Point(12, 276);
-            telefoneLabel.Name = "telefoneLabel";
-            telefoneLabel.Size = new System.Drawing.Size(48, 13);
-            telefoneLabel.TabIndex = 19;
-            telefoneLabel.Text = "telefone:";
             // 
             // bd_EscolaDataSet
             // 
@@ -234,7 +144,7 @@
             this.alunosBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.alunosBindingNavigator.Name = "alunosBindingNavigator";
             this.alunosBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.alunosBindingNavigator.Size = new System.Drawing.Size(741, 25);
+            this.alunosBindingNavigator.Size = new System.Drawing.Size(761, 25);
             this.alunosBindingNavigator.TabIndex = 0;
             this.alunosBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -332,88 +242,6 @@
             this.alunosBindingNavigatorSaveItem.Text = "Save Data";
             this.alunosBindingNavigatorSaveItem.Click += new System.EventHandler(this.alunosBindingNavigatorSaveItem_Click_1);
             // 
-            // matriculaLabel1
-            // 
-            this.matriculaLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "Matricula", true));
-            this.matriculaLabel1.Location = new System.Drawing.Point(74, 39);
-            this.matriculaLabel1.Name = "matriculaLabel1";
-            this.matriculaLabel1.Size = new System.Drawing.Size(200, 23);
-            this.matriculaLabel1.TabIndex = 2;
-            this.matriculaLabel1.Text = "label1";
-            // 
-            // nomeTextBox
-            // 
-            this.nomeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "Nome", true));
-            this.nomeTextBox.Location = new System.Drawing.Point(74, 65);
-            this.nomeTextBox.Name = "nomeTextBox";
-            this.nomeTextBox.Size = new System.Drawing.Size(200, 20);
-            this.nomeTextBox.TabIndex = 4;
-            // 
-            // nascDateTimePicker
-            // 
-            this.nascDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.alunosBindingSource, "Nasc", true));
-            this.nascDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.nascDateTimePicker.Location = new System.Drawing.Point(74, 91);
-            this.nascDateTimePicker.Name = "nascDateTimePicker";
-            this.nascDateTimePicker.Size = new System.Drawing.Size(200, 20);
-            this.nascDateTimePicker.TabIndex = 6;
-            // 
-            // enderecoTextBox
-            // 
-            this.enderecoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "Endereco", true));
-            this.enderecoTextBox.Location = new System.Drawing.Point(74, 117);
-            this.enderecoTextBox.Name = "enderecoTextBox";
-            this.enderecoTextBox.Size = new System.Drawing.Size(200, 20);
-            this.enderecoTextBox.TabIndex = 8;
-            // 
-            // numeroTextBox
-            // 
-            this.numeroTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "numero", true));
-            this.numeroTextBox.Location = new System.Drawing.Point(74, 143);
-            this.numeroTextBox.Name = "numeroTextBox";
-            this.numeroTextBox.Size = new System.Drawing.Size(200, 20);
-            this.numeroTextBox.TabIndex = 10;
-            // 
-            // bairroTextBox
-            // 
-            this.bairroTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "bairro", true));
-            this.bairroTextBox.Location = new System.Drawing.Point(74, 169);
-            this.bairroTextBox.Name = "bairroTextBox";
-            this.bairroTextBox.Size = new System.Drawing.Size(200, 20);
-            this.bairroTextBox.TabIndex = 12;
-            // 
-            // cidadeTextBox
-            // 
-            this.cidadeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "cidade", true));
-            this.cidadeTextBox.Location = new System.Drawing.Point(74, 195);
-            this.cidadeTextBox.Name = "cidadeTextBox";
-            this.cidadeTextBox.Size = new System.Drawing.Size(200, 20);
-            this.cidadeTextBox.TabIndex = 14;
-            // 
-            // cepTextBox
-            // 
-            this.cepTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "cep", true));
-            this.cepTextBox.Location = new System.Drawing.Point(74, 221);
-            this.cepTextBox.Name = "cepTextBox";
-            this.cepTextBox.Size = new System.Drawing.Size(200, 20);
-            this.cepTextBox.TabIndex = 16;
-            // 
-            // rGTextBox
-            // 
-            this.rGTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "RG", true));
-            this.rGTextBox.Location = new System.Drawing.Point(74, 247);
-            this.rGTextBox.Name = "rGTextBox";
-            this.rGTextBox.Size = new System.Drawing.Size(200, 20);
-            this.rGTextBox.TabIndex = 18;
-            // 
-            // telefoneTextBox
-            // 
-            this.telefoneTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "telefone", true));
-            this.telefoneTextBox.Location = new System.Drawing.Point(74, 273);
-            this.telefoneTextBox.Name = "telefoneTextBox";
-            this.telefoneTextBox.Size = new System.Drawing.Size(200, 20);
-            this.telefoneTextBox.TabIndex = 20;
-            // 
             // alunosDataGridView
             // 
             this.alunosDataGridView.AutoGenerateColumns = false;
@@ -430,10 +258,10 @@
             this.dataGridViewTextBoxColumn9,
             this.dataGridViewTextBoxColumn10});
             this.alunosDataGridView.DataSource = this.alunosBindingSource;
-            this.alunosDataGridView.Location = new System.Drawing.Point(12, 299);
+            this.alunosDataGridView.Location = new System.Drawing.Point(12, 323);
             this.alunosDataGridView.Name = "alunosDataGridView";
-            this.alunosDataGridView.Size = new System.Drawing.Size(722, 250);
-            this.alunosDataGridView.TabIndex = 21;
+            this.alunosDataGridView.Size = new System.Drawing.Size(729, 220);
+            this.alunosDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -495,12 +323,185 @@
             this.dataGridViewTextBoxColumn10.HeaderText = "telefone";
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
+            // matriculaLabel
+            // 
+            matriculaLabel.AutoSize = true;
+            matriculaLabel.Location = new System.Drawing.Point(25, 43);
+            matriculaLabel.Name = "matriculaLabel";
+            matriculaLabel.Size = new System.Drawing.Size(53, 13);
+            matriculaLabel.TabIndex = 2;
+            matriculaLabel.Text = "Matricula:";
+            // 
+            // matriculaLabel1
+            // 
+            this.matriculaLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "Matricula", true));
+            this.matriculaLabel1.Location = new System.Drawing.Point(87, 43);
+            this.matriculaLabel1.Name = "matriculaLabel1";
+            this.matriculaLabel1.Size = new System.Drawing.Size(200, 23);
+            this.matriculaLabel1.TabIndex = 3;
+            this.matriculaLabel1.Text = "label1";
+            // 
+            // nomeLabel
+            // 
+            nomeLabel.AutoSize = true;
+            nomeLabel.Location = new System.Drawing.Point(25, 72);
+            nomeLabel.Name = "nomeLabel";
+            nomeLabel.Size = new System.Drawing.Size(38, 13);
+            nomeLabel.TabIndex = 4;
+            nomeLabel.Text = "Nome:";
+            // 
+            // nomeTextBox
+            // 
+            this.nomeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "Nome", true));
+            this.nomeTextBox.Location = new System.Drawing.Point(87, 69);
+            this.nomeTextBox.Name = "nomeTextBox";
+            this.nomeTextBox.Size = new System.Drawing.Size(200, 20);
+            this.nomeTextBox.TabIndex = 5;
+            // 
+            // nascLabel
+            // 
+            nascLabel.AutoSize = true;
+            nascLabel.Location = new System.Drawing.Point(25, 99);
+            nascLabel.Name = "nascLabel";
+            nascLabel.Size = new System.Drawing.Size(35, 13);
+            nascLabel.TabIndex = 6;
+            nascLabel.Text = "Nasc:";
+            // 
+            // nascDateTimePicker
+            // 
+            this.nascDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.alunosBindingSource, "Nasc", true));
+            this.nascDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.nascDateTimePicker.Location = new System.Drawing.Point(87, 95);
+            this.nascDateTimePicker.Name = "nascDateTimePicker";
+            this.nascDateTimePicker.Size = new System.Drawing.Size(200, 20);
+            this.nascDateTimePicker.TabIndex = 7;
+            // 
+            // enderecoLabel
+            // 
+            enderecoLabel.AutoSize = true;
+            enderecoLabel.Location = new System.Drawing.Point(25, 124);
+            enderecoLabel.Name = "enderecoLabel";
+            enderecoLabel.Size = new System.Drawing.Size(56, 13);
+            enderecoLabel.TabIndex = 8;
+            enderecoLabel.Text = "Endereco:";
+            // 
+            // enderecoTextBox
+            // 
+            this.enderecoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "Endereco", true));
+            this.enderecoTextBox.Location = new System.Drawing.Point(87, 121);
+            this.enderecoTextBox.Name = "enderecoTextBox";
+            this.enderecoTextBox.Size = new System.Drawing.Size(200, 20);
+            this.enderecoTextBox.TabIndex = 9;
+            // 
+            // numeroLabel
+            // 
+            numeroLabel.AutoSize = true;
+            numeroLabel.Location = new System.Drawing.Point(25, 150);
+            numeroLabel.Name = "numeroLabel";
+            numeroLabel.Size = new System.Drawing.Size(45, 13);
+            numeroLabel.TabIndex = 10;
+            numeroLabel.Text = "numero:";
+            // 
+            // numeroTextBox
+            // 
+            this.numeroTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "numero", true));
+            this.numeroTextBox.Location = new System.Drawing.Point(87, 147);
+            this.numeroTextBox.Name = "numeroTextBox";
+            this.numeroTextBox.Size = new System.Drawing.Size(200, 20);
+            this.numeroTextBox.TabIndex = 11;
+            // 
+            // bairroLabel
+            // 
+            bairroLabel.AutoSize = true;
+            bairroLabel.Location = new System.Drawing.Point(25, 176);
+            bairroLabel.Name = "bairroLabel";
+            bairroLabel.Size = new System.Drawing.Size(36, 13);
+            bairroLabel.TabIndex = 12;
+            bairroLabel.Text = "bairro:";
+            // 
+            // bairroTextBox
+            // 
+            this.bairroTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "bairro", true));
+            this.bairroTextBox.Location = new System.Drawing.Point(87, 173);
+            this.bairroTextBox.Name = "bairroTextBox";
+            this.bairroTextBox.Size = new System.Drawing.Size(200, 20);
+            this.bairroTextBox.TabIndex = 13;
+            // 
+            // cidadeLabel
+            // 
+            cidadeLabel.AutoSize = true;
+            cidadeLabel.Location = new System.Drawing.Point(25, 202);
+            cidadeLabel.Name = "cidadeLabel";
+            cidadeLabel.Size = new System.Drawing.Size(42, 13);
+            cidadeLabel.TabIndex = 14;
+            cidadeLabel.Text = "cidade:";
+            // 
+            // cidadeTextBox
+            // 
+            this.cidadeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "cidade", true));
+            this.cidadeTextBox.Location = new System.Drawing.Point(87, 199);
+            this.cidadeTextBox.Name = "cidadeTextBox";
+            this.cidadeTextBox.Size = new System.Drawing.Size(200, 20);
+            this.cidadeTextBox.TabIndex = 15;
+            // 
+            // cepLabel
+            // 
+            cepLabel.AutoSize = true;
+            cepLabel.Location = new System.Drawing.Point(25, 228);
+            cepLabel.Name = "cepLabel";
+            cepLabel.Size = new System.Drawing.Size(28, 13);
+            cepLabel.TabIndex = 16;
+            cepLabel.Text = "cep:";
+            // 
+            // cepMaskedTextBox
+            // 
+            this.cepMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "cep", true));
+            this.cepMaskedTextBox.Location = new System.Drawing.Point(87, 225);
+            this.cepMaskedTextBox.Mask = "00000-000";
+            this.cepMaskedTextBox.Name = "cepMaskedTextBox";
+            this.cepMaskedTextBox.Size = new System.Drawing.Size(200, 20);
+            this.cepMaskedTextBox.TabIndex = 17;
+            // 
+            // rGLabel
+            // 
+            rGLabel.AutoSize = true;
+            rGLabel.Location = new System.Drawing.Point(25, 254);
+            rGLabel.Name = "rGLabel";
+            rGLabel.Size = new System.Drawing.Size(26, 13);
+            rGLabel.TabIndex = 18;
+            rGLabel.Text = "RG:";
+            // 
+            // rGMaskedTextBox
+            // 
+            this.rGMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "RG", true));
+            this.rGMaskedTextBox.Location = new System.Drawing.Point(87, 251);
+            this.rGMaskedTextBox.Mask = "00,000,000-0";
+            this.rGMaskedTextBox.Name = "rGMaskedTextBox";
+            this.rGMaskedTextBox.Size = new System.Drawing.Size(200, 20);
+            this.rGMaskedTextBox.TabIndex = 19;
+            // 
+            // telefoneLabel
+            // 
+            telefoneLabel.AutoSize = true;
+            telefoneLabel.Location = new System.Drawing.Point(25, 280);
+            telefoneLabel.Name = "telefoneLabel";
+            telefoneLabel.Size = new System.Drawing.Size(48, 13);
+            telefoneLabel.TabIndex = 20;
+            telefoneLabel.Text = "telefone:";
+            // 
+            // telefoneTextBox
+            // 
+            this.telefoneTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "telefone", true));
+            this.telefoneTextBox.Location = new System.Drawing.Point(87, 277);
+            this.telefoneTextBox.Name = "telefoneTextBox";
+            this.telefoneTextBox.Size = new System.Drawing.Size(200, 20);
+            this.telefoneTextBox.TabIndex = 21;
+            // 
             // frmAlunos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(741, 555);
-            this.Controls.Add(this.alunosDataGridView);
+            this.ClientSize = new System.Drawing.Size(761, 563);
             this.Controls.Add(matriculaLabel);
             this.Controls.Add(this.matriculaLabel1);
             this.Controls.Add(nomeLabel);
@@ -516,11 +517,12 @@
             this.Controls.Add(cidadeLabel);
             this.Controls.Add(this.cidadeTextBox);
             this.Controls.Add(cepLabel);
-            this.Controls.Add(this.cepTextBox);
+            this.Controls.Add(this.cepMaskedTextBox);
             this.Controls.Add(rGLabel);
-            this.Controls.Add(this.rGTextBox);
+            this.Controls.Add(this.rGMaskedTextBox);
             this.Controls.Add(telefoneLabel);
             this.Controls.Add(this.telefoneTextBox);
+            this.Controls.Add(this.alunosDataGridView);
             this.Controls.Add(this.alunosBindingNavigator);
             this.Name = "frmAlunos";
             this.Text = "Alunos";
@@ -555,16 +557,6 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton alunosBindingNavigatorSaveItem;
-        private System.Windows.Forms.Label matriculaLabel1;
-        private System.Windows.Forms.TextBox nomeTextBox;
-        private System.Windows.Forms.DateTimePicker nascDateTimePicker;
-        private System.Windows.Forms.TextBox enderecoTextBox;
-        private System.Windows.Forms.TextBox numeroTextBox;
-        private System.Windows.Forms.TextBox bairroTextBox;
-        private System.Windows.Forms.TextBox cidadeTextBox;
-        private System.Windows.Forms.TextBox cepTextBox;
-        private System.Windows.Forms.TextBox rGTextBox;
-        private System.Windows.Forms.TextBox telefoneTextBox;
         private System.Windows.Forms.DataGridView alunosDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
@@ -576,6 +568,16 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.Label matriculaLabel1;
+        private System.Windows.Forms.TextBox nomeTextBox;
+        private System.Windows.Forms.DateTimePicker nascDateTimePicker;
+        private System.Windows.Forms.TextBox enderecoTextBox;
+        private System.Windows.Forms.TextBox numeroTextBox;
+        private System.Windows.Forms.TextBox bairroTextBox;
+        private System.Windows.Forms.TextBox cidadeTextBox;
+        private System.Windows.Forms.MaskedTextBox cepMaskedTextBox;
+        private System.Windows.Forms.MaskedTextBox rGMaskedTextBox;
+        private System.Windows.Forms.TextBox telefoneTextBox;
 
     }
 }
