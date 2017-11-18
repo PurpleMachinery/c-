@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAlunos));
             System.Windows.Forms.Label matriculaLabel;
             System.Windows.Forms.Label nomeLabel;
             System.Windows.Forms.Label nascLabel;
@@ -40,6 +39,7 @@
             System.Windows.Forms.Label cepLabel;
             System.Windows.Forms.Label rGLabel;
             System.Windows.Forms.Label telefoneLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAlunos));
             this.bd_EscolaDataSet = new Escola.Bd_EscolaDataSet();
             this.alunosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.alunosTableAdapter = new Escola.Bd_EscolaDataSetTableAdapters.AlunosTableAdapter();
@@ -94,6 +94,96 @@
             this.alunosBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.alunosDataGridView)).BeginInit();
             this.SuspendLayout();
+            // 
+            // matriculaLabel
+            // 
+            matriculaLabel.AutoSize = true;
+            matriculaLabel.Location = new System.Drawing.Point(25, 43);
+            matriculaLabel.Name = "matriculaLabel";
+            matriculaLabel.Size = new System.Drawing.Size(53, 13);
+            matriculaLabel.TabIndex = 2;
+            matriculaLabel.Text = "Matricula:";
+            // 
+            // nomeLabel
+            // 
+            nomeLabel.AutoSize = true;
+            nomeLabel.Location = new System.Drawing.Point(25, 72);
+            nomeLabel.Name = "nomeLabel";
+            nomeLabel.Size = new System.Drawing.Size(38, 13);
+            nomeLabel.TabIndex = 4;
+            nomeLabel.Text = "Nome:";
+            // 
+            // nascLabel
+            // 
+            nascLabel.AutoSize = true;
+            nascLabel.Location = new System.Drawing.Point(25, 99);
+            nascLabel.Name = "nascLabel";
+            nascLabel.Size = new System.Drawing.Size(35, 13);
+            nascLabel.TabIndex = 6;
+            nascLabel.Text = "Nasc:";
+            // 
+            // enderecoLabel
+            // 
+            enderecoLabel.AutoSize = true;
+            enderecoLabel.Location = new System.Drawing.Point(25, 124);
+            enderecoLabel.Name = "enderecoLabel";
+            enderecoLabel.Size = new System.Drawing.Size(56, 13);
+            enderecoLabel.TabIndex = 8;
+            enderecoLabel.Text = "Endereco:";
+            // 
+            // numeroLabel
+            // 
+            numeroLabel.AutoSize = true;
+            numeroLabel.Location = new System.Drawing.Point(25, 150);
+            numeroLabel.Name = "numeroLabel";
+            numeroLabel.Size = new System.Drawing.Size(45, 13);
+            numeroLabel.TabIndex = 10;
+            numeroLabel.Text = "numero:";
+            // 
+            // bairroLabel
+            // 
+            bairroLabel.AutoSize = true;
+            bairroLabel.Location = new System.Drawing.Point(25, 176);
+            bairroLabel.Name = "bairroLabel";
+            bairroLabel.Size = new System.Drawing.Size(36, 13);
+            bairroLabel.TabIndex = 12;
+            bairroLabel.Text = "bairro:";
+            // 
+            // cidadeLabel
+            // 
+            cidadeLabel.AutoSize = true;
+            cidadeLabel.Location = new System.Drawing.Point(25, 202);
+            cidadeLabel.Name = "cidadeLabel";
+            cidadeLabel.Size = new System.Drawing.Size(42, 13);
+            cidadeLabel.TabIndex = 14;
+            cidadeLabel.Text = "cidade:";
+            // 
+            // cepLabel
+            // 
+            cepLabel.AutoSize = true;
+            cepLabel.Location = new System.Drawing.Point(25, 228);
+            cepLabel.Name = "cepLabel";
+            cepLabel.Size = new System.Drawing.Size(28, 13);
+            cepLabel.TabIndex = 16;
+            cepLabel.Text = "cep:";
+            // 
+            // rGLabel
+            // 
+            rGLabel.AutoSize = true;
+            rGLabel.Location = new System.Drawing.Point(25, 254);
+            rGLabel.Name = "rGLabel";
+            rGLabel.Size = new System.Drawing.Size(26, 13);
+            rGLabel.TabIndex = 18;
+            rGLabel.Text = "RG:";
+            // 
+            // telefoneLabel
+            // 
+            telefoneLabel.AutoSize = true;
+            telefoneLabel.Location = new System.Drawing.Point(25, 280);
+            telefoneLabel.Name = "telefoneLabel";
+            telefoneLabel.Size = new System.Drawing.Size(48, 13);
+            telefoneLabel.TabIndex = 20;
+            telefoneLabel.Text = "telefone:";
             // 
             // bd_EscolaDataSet
             // 
@@ -323,15 +413,6 @@
             this.dataGridViewTextBoxColumn10.HeaderText = "telefone";
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
-            // matriculaLabel
-            // 
-            matriculaLabel.AutoSize = true;
-            matriculaLabel.Location = new System.Drawing.Point(25, 43);
-            matriculaLabel.Name = "matriculaLabel";
-            matriculaLabel.Size = new System.Drawing.Size(53, 13);
-            matriculaLabel.TabIndex = 2;
-            matriculaLabel.Text = "Matricula:";
-            // 
             // matriculaLabel1
             // 
             this.matriculaLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "Matricula", true));
@@ -341,15 +422,6 @@
             this.matriculaLabel1.TabIndex = 3;
             this.matriculaLabel1.Text = "label1";
             // 
-            // nomeLabel
-            // 
-            nomeLabel.AutoSize = true;
-            nomeLabel.Location = new System.Drawing.Point(25, 72);
-            nomeLabel.Name = "nomeLabel";
-            nomeLabel.Size = new System.Drawing.Size(38, 13);
-            nomeLabel.TabIndex = 4;
-            nomeLabel.Text = "Nome:";
-            // 
             // nomeTextBox
             // 
             this.nomeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "Nome", true));
@@ -357,15 +429,6 @@
             this.nomeTextBox.Name = "nomeTextBox";
             this.nomeTextBox.Size = new System.Drawing.Size(200, 20);
             this.nomeTextBox.TabIndex = 5;
-            // 
-            // nascLabel
-            // 
-            nascLabel.AutoSize = true;
-            nascLabel.Location = new System.Drawing.Point(25, 99);
-            nascLabel.Name = "nascLabel";
-            nascLabel.Size = new System.Drawing.Size(35, 13);
-            nascLabel.TabIndex = 6;
-            nascLabel.Text = "Nasc:";
             // 
             // nascDateTimePicker
             // 
@@ -376,15 +439,6 @@
             this.nascDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.nascDateTimePicker.TabIndex = 7;
             // 
-            // enderecoLabel
-            // 
-            enderecoLabel.AutoSize = true;
-            enderecoLabel.Location = new System.Drawing.Point(25, 124);
-            enderecoLabel.Name = "enderecoLabel";
-            enderecoLabel.Size = new System.Drawing.Size(56, 13);
-            enderecoLabel.TabIndex = 8;
-            enderecoLabel.Text = "Endereco:";
-            // 
             // enderecoTextBox
             // 
             this.enderecoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "Endereco", true));
@@ -392,15 +446,6 @@
             this.enderecoTextBox.Name = "enderecoTextBox";
             this.enderecoTextBox.Size = new System.Drawing.Size(200, 20);
             this.enderecoTextBox.TabIndex = 9;
-            // 
-            // numeroLabel
-            // 
-            numeroLabel.AutoSize = true;
-            numeroLabel.Location = new System.Drawing.Point(25, 150);
-            numeroLabel.Name = "numeroLabel";
-            numeroLabel.Size = new System.Drawing.Size(45, 13);
-            numeroLabel.TabIndex = 10;
-            numeroLabel.Text = "numero:";
             // 
             // numeroTextBox
             // 
@@ -410,15 +455,6 @@
             this.numeroTextBox.Size = new System.Drawing.Size(200, 20);
             this.numeroTextBox.TabIndex = 11;
             // 
-            // bairroLabel
-            // 
-            bairroLabel.AutoSize = true;
-            bairroLabel.Location = new System.Drawing.Point(25, 176);
-            bairroLabel.Name = "bairroLabel";
-            bairroLabel.Size = new System.Drawing.Size(36, 13);
-            bairroLabel.TabIndex = 12;
-            bairroLabel.Text = "bairro:";
-            // 
             // bairroTextBox
             // 
             this.bairroTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "bairro", true));
@@ -427,15 +463,6 @@
             this.bairroTextBox.Size = new System.Drawing.Size(200, 20);
             this.bairroTextBox.TabIndex = 13;
             // 
-            // cidadeLabel
-            // 
-            cidadeLabel.AutoSize = true;
-            cidadeLabel.Location = new System.Drawing.Point(25, 202);
-            cidadeLabel.Name = "cidadeLabel";
-            cidadeLabel.Size = new System.Drawing.Size(42, 13);
-            cidadeLabel.TabIndex = 14;
-            cidadeLabel.Text = "cidade:";
-            // 
             // cidadeTextBox
             // 
             this.cidadeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "cidade", true));
@@ -443,15 +470,6 @@
             this.cidadeTextBox.Name = "cidadeTextBox";
             this.cidadeTextBox.Size = new System.Drawing.Size(200, 20);
             this.cidadeTextBox.TabIndex = 15;
-            // 
-            // cepLabel
-            // 
-            cepLabel.AutoSize = true;
-            cepLabel.Location = new System.Drawing.Point(25, 228);
-            cepLabel.Name = "cepLabel";
-            cepLabel.Size = new System.Drawing.Size(28, 13);
-            cepLabel.TabIndex = 16;
-            cepLabel.Text = "cep:";
             // 
             // cepMaskedTextBox
             // 
@@ -462,15 +480,6 @@
             this.cepMaskedTextBox.Size = new System.Drawing.Size(200, 20);
             this.cepMaskedTextBox.TabIndex = 17;
             // 
-            // rGLabel
-            // 
-            rGLabel.AutoSize = true;
-            rGLabel.Location = new System.Drawing.Point(25, 254);
-            rGLabel.Name = "rGLabel";
-            rGLabel.Size = new System.Drawing.Size(26, 13);
-            rGLabel.TabIndex = 18;
-            rGLabel.Text = "RG:";
-            // 
             // rGMaskedTextBox
             // 
             this.rGMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.alunosBindingSource, "RG", true));
@@ -479,15 +488,6 @@
             this.rGMaskedTextBox.Name = "rGMaskedTextBox";
             this.rGMaskedTextBox.Size = new System.Drawing.Size(200, 20);
             this.rGMaskedTextBox.TabIndex = 19;
-            // 
-            // telefoneLabel
-            // 
-            telefoneLabel.AutoSize = true;
-            telefoneLabel.Location = new System.Drawing.Point(25, 280);
-            telefoneLabel.Name = "telefoneLabel";
-            telefoneLabel.Size = new System.Drawing.Size(48, 13);
-            telefoneLabel.TabIndex = 20;
-            telefoneLabel.Text = "telefone:";
             // 
             // telefoneTextBox
             // 
@@ -526,6 +526,7 @@
             this.Controls.Add(this.alunosBindingNavigator);
             this.Name = "frmAlunos";
             this.Text = "Alunos";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmAlunos_FormClosing);
             this.Load += new System.EventHandler(this.frmAlunos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bd_EscolaDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.alunosBindingSource)).EndInit();

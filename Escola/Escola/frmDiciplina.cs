@@ -30,5 +30,15 @@ namespace Escola
             this.disciplinasTableAdapter.Fill(this.bd_EscolaDataSet.Disciplinas);
 
         }
+
+        private void frmDiciplina_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Deseja sair?", "Sair", MessageBoxButtons.YesNo) == DialogResult.Yes) MessageBox.Show("Saindo");
+            else
+            {
+                MessageBox.Show("Ficando");
+                e.Cancel = true;
+            }
+        }
     }
 }

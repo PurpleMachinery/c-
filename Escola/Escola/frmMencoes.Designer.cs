@@ -29,26 +29,26 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMencoes));
             System.Windows.Forms.Label matriculaLabel;
             System.Windows.Forms.Label cod_disciplinaLabel;
             System.Windows.Forms.Label mencaoLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMencoes));
             this.bd_EscolaDataSet = new Escola.Bd_EscolaDataSet();
             this.registro_MencoesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.registro_MencoesTableAdapter = new Escola.Bd_EscolaDataSetTableAdapters.Registro_MencoesTableAdapter();
             this.tableAdapterManager = new Escola.Bd_EscolaDataSetTableAdapters.TableAdapterManager();
             this.registro_MencoesBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.registro_MencoesBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.registro_MencoesDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -66,6 +66,33 @@
             this.registro_MencoesBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.registro_MencoesDataGridView)).BeginInit();
             this.SuspendLayout();
+            // 
+            // matriculaLabel
+            // 
+            matriculaLabel.AutoSize = true;
+            matriculaLabel.Location = new System.Drawing.Point(12, 41);
+            matriculaLabel.Name = "matriculaLabel";
+            matriculaLabel.Size = new System.Drawing.Size(52, 13);
+            matriculaLabel.TabIndex = 2;
+            matriculaLabel.Text = "matricula:";
+            // 
+            // cod_disciplinaLabel
+            // 
+            cod_disciplinaLabel.AutoSize = true;
+            cod_disciplinaLabel.Location = new System.Drawing.Point(12, 70);
+            cod_disciplinaLabel.Name = "cod_disciplinaLabel";
+            cod_disciplinaLabel.Size = new System.Drawing.Size(74, 13);
+            cod_disciplinaLabel.TabIndex = 4;
+            cod_disciplinaLabel.Text = "cod disciplina:";
+            // 
+            // mencaoLabel
+            // 
+            mencaoLabel.AutoSize = true;
+            mencaoLabel.Location = new System.Drawing.Point(12, 96);
+            mencaoLabel.Name = "mencaoLabel";
+            mencaoLabel.Size = new System.Drawing.Size(48, 13);
+            mencaoLabel.TabIndex = 6;
+            mencaoLabel.Text = "mencao:";
             // 
             // bd_EscolaDataSet
             // 
@@ -120,6 +147,31 @@
             this.registro_MencoesBindingNavigator.TabIndex = 0;
             this.registro_MencoesBindingNavigator.Text = "bindingNavigator1";
             // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
+            // 
             // bindingNavigatorMoveFirstItem
             // 
             this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -152,17 +204,10 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 15);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 6);
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -170,7 +215,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 20);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorMoveNextItem.Text = "Move next";
             // 
             // bindingNavigatorMoveLastItem
@@ -179,38 +224,20 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 20);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorMoveLastItem.Text = "Move last";
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 6);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 20);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // registro_MencoesBindingNavigatorSaveItem
             // 
             this.registro_MencoesBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.registro_MencoesBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("registro_MencoesBindingNavigatorSaveItem.Image")));
             this.registro_MencoesBindingNavigatorSaveItem.Name = "registro_MencoesBindingNavigatorSaveItem";
-            this.registro_MencoesBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
+            this.registro_MencoesBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
             this.registro_MencoesBindingNavigatorSaveItem.Text = "Save Data";
             this.registro_MencoesBindingNavigatorSaveItem.Click += new System.EventHandler(this.registro_MencoesBindingNavigatorSaveItem_Click);
             // 
@@ -246,15 +273,6 @@
             this.dataGridViewTextBoxColumn3.HeaderText = "mencao";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
-            // matriculaLabel
-            // 
-            matriculaLabel.AutoSize = true;
-            matriculaLabel.Location = new System.Drawing.Point(12, 41);
-            matriculaLabel.Name = "matriculaLabel";
-            matriculaLabel.Size = new System.Drawing.Size(52, 13);
-            matriculaLabel.TabIndex = 2;
-            matriculaLabel.Text = "matricula:";
-            // 
             // matriculaLabel1
             // 
             this.matriculaLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.registro_MencoesBindingSource, "matricula", true));
@@ -264,15 +282,6 @@
             this.matriculaLabel1.TabIndex = 3;
             this.matriculaLabel1.Text = "label1";
             // 
-            // cod_disciplinaLabel
-            // 
-            cod_disciplinaLabel.AutoSize = true;
-            cod_disciplinaLabel.Location = new System.Drawing.Point(12, 70);
-            cod_disciplinaLabel.Name = "cod_disciplinaLabel";
-            cod_disciplinaLabel.Size = new System.Drawing.Size(74, 13);
-            cod_disciplinaLabel.TabIndex = 4;
-            cod_disciplinaLabel.Text = "cod disciplina:";
-            // 
             // cod_disciplinaTextBox
             // 
             this.cod_disciplinaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.registro_MencoesBindingSource, "cod_disciplina", true));
@@ -280,15 +289,6 @@
             this.cod_disciplinaTextBox.Name = "cod_disciplinaTextBox";
             this.cod_disciplinaTextBox.Size = new System.Drawing.Size(100, 20);
             this.cod_disciplinaTextBox.TabIndex = 5;
-            // 
-            // mencaoLabel
-            // 
-            mencaoLabel.AutoSize = true;
-            mencaoLabel.Location = new System.Drawing.Point(12, 96);
-            mencaoLabel.Name = "mencaoLabel";
-            mencaoLabel.Size = new System.Drawing.Size(48, 13);
-            mencaoLabel.TabIndex = 6;
-            mencaoLabel.Text = "mencao:";
             // 
             // mencaoTextBox
             // 
@@ -313,6 +313,7 @@
             this.Controls.Add(this.registro_MencoesBindingNavigator);
             this.Name = "frmMencoes";
             this.Text = "frmMencoes";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMencoes_FormClosing);
             this.Load += new System.EventHandler(this.frmMencoes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bd_EscolaDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.registro_MencoesBindingSource)).EndInit();

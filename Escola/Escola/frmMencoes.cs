@@ -30,5 +30,15 @@ namespace Escola
             this.registro_MencoesTableAdapter.Fill(this.bd_EscolaDataSet.Registro_Mencoes);
 
         }
+
+        private void frmMencoes_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Deseja sair?", "Sair", MessageBoxButtons.YesNo) == DialogResult.Yes) MessageBox.Show("Saindo");
+            else
+            {
+                MessageBox.Show("Ficando");
+                e.Cancel = true;
+            }
+        }
     }
 }

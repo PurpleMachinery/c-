@@ -38,5 +38,15 @@ namespace Escola
             this.alunosTableAdapter.Fill(this.bd_EscolaDataSet.Alunos);
 
         }
+
+        private void frmAlunos_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Deseja sair?", "Sair", MessageBoxButtons.YesNo) == DialogResult.Yes) MessageBox.Show("Saindo");
+            else
+            {
+                MessageBox.Show("Ficando");
+                e.Cancel = true;
+            }
+        }
     }
 }
