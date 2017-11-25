@@ -1,0 +1,9 @@
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\semBanco\bin\Debug\semBanco.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\semBanco\bin\Debug\semBanco.pdb
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\semBanco\obj\x86\Debug\semBanco.frmCalcularFrete.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\semBanco\obj\x86\Debug\semBanco.Properties.Resources.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\semBanco\obj\x86\Debug\semBanco.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\semBanco\obj\x86\Debug\semBanco.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\semBanco\obj\x86\Debug\semBanco.pdb
+C:\Users\Aluno_2\Desktop\wesley\semBanco\semBanco\obj\x86\Debug\semBanco.exe
+C:\Users\Aluno_2\Desktop\wesley\semBanco\semBanco\obj\x86\Debug\semBanco.pdb

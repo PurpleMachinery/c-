@@ -1,0 +1,9 @@
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\usandoCheckBox\bin\Debug\usandoCheckBox.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\usandoCheckBox\bin\Debug\usandoCheckBox.pdb
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\usandoCheckBox\obj\x86\Debug\usandoCheckBox.frmCheckBox.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\usandoCheckBox\obj\x86\Debug\usandoCheckBox.Properties.Resources.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\usandoCheckBox\obj\x86\Debug\usandoCheckBox.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\usandoCheckBox\obj\x86\Debug\usandoCheckBox.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\usandoCheckBox\obj\x86\Debug\usandoCheckBox.pdb
+C:\Users\Aluno_2\Desktop\wesley\usandoCheckBox\usandoCheckBox\obj\x86\Debug\usandoCheckBox.exe
+C:\Users\Aluno_2\Desktop\wesley\usandoCheckBox\usandoCheckBox\obj\x86\Debug\usandoCheckBox.pdb

@@ -1,0 +1,13 @@
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\obj\x86\Debug\comBanco.frmComBanco.resources
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\obj\x86\Debug\comBanco.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\obj\x86\Debug\comBanco.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\bin\Debug\comBanco.exe
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\bin\Debug\comBanco.pdb
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\obj\x86\Debug\comBanco.exe
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\obj\x86\Debug\comBanco.pdb
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\obj\x86\Debug\comBanco.fornecedores.resources
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\bin\Debug\Empresas.accdb
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\bin\Debug\comBanco.exe.config
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\obj\x86\Debug\comBanco.produtos.resources
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\obj\x86\Debug\comBanco.sobre.resources
+C:\Users\Aluno_2\Desktop\wesley\comBanco\comBanco\obj\x86\Debug\comBanco.csprojResolveAssemblyReference.cache

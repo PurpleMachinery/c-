@@ -15,3 +15,5 @@ C:\Users\Aluno_2\Desktop\c#\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.frmCadas
 C:\Users\Aluno_2\Desktop\c#\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.csprojResolveAssemblyReference.cache
 C:\Users\Aluno\Desktop\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.exe
 C:\Users\Aluno\Desktop\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.pdb
+C:\Users\Aluno_2\Desktop\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.exe
+C:\Users\Aluno_2\Desktop\c-\Cadastro\Cadastro\obj\x86\Debug\Cadastro.pdb
