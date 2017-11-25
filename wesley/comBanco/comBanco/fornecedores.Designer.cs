@@ -67,7 +67,7 @@
             this.numTextBox = new System.Windows.Forms.TextBox();
             this.bairroTextBox = new System.Windows.Forms.TextBox();
             this.cidadeTextBox = new System.Windows.Forms.TextBox();
-            this.foneTextBox = new System.Windows.Forms.TextBox();
+            this.foneMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
             this.nome_ContatoTextBox = new System.Windows.Forms.TextBox();
             this.emailTextBox = new System.Windows.Forms.TextBox();
             this.siteTextBox = new System.Windows.Forms.TextBox();
@@ -251,7 +251,7 @@
             // código_FornecedorLabel
             // 
             código_FornecedorLabel.AutoSize = true;
-            código_FornecedorLabel.Location = new System.Drawing.Point(29, 55);
+            código_FornecedorLabel.Location = new System.Drawing.Point(12, 35);
             código_FornecedorLabel.Name = "código_FornecedorLabel";
             código_FornecedorLabel.Size = new System.Drawing.Size(100, 13);
             código_FornecedorLabel.TabIndex = 1;
@@ -260,7 +260,7 @@
             // código_FornecedorLabel1
             // 
             this.código_FornecedorLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Código_Fornecedor", true));
-            this.código_FornecedorLabel1.Location = new System.Drawing.Point(135, 55);
+            this.código_FornecedorLabel1.Location = new System.Drawing.Point(118, 35);
             this.código_FornecedorLabel1.Name = "código_FornecedorLabel1";
             this.código_FornecedorLabel1.Size = new System.Drawing.Size(100, 23);
             this.código_FornecedorLabel1.TabIndex = 2;
@@ -269,7 +269,7 @@
             // razao_SocialLabel
             // 
             razao_SocialLabel.AutoSize = true;
-            razao_SocialLabel.Location = new System.Drawing.Point(29, 84);
+            razao_SocialLabel.Location = new System.Drawing.Point(12, 64);
             razao_SocialLabel.Name = "razao_SocialLabel";
             razao_SocialLabel.Size = new System.Drawing.Size(73, 13);
             razao_SocialLabel.TabIndex = 3;
@@ -278,15 +278,15 @@
             // razao_SocialTextBox
             // 
             this.razao_SocialTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Razao_Social", true));
-            this.razao_SocialTextBox.Location = new System.Drawing.Point(135, 81);
+            this.razao_SocialTextBox.Location = new System.Drawing.Point(118, 61);
             this.razao_SocialTextBox.Name = "razao_SocialTextBox";
-            this.razao_SocialTextBox.Size = new System.Drawing.Size(111, 20);
+            this.razao_SocialTextBox.Size = new System.Drawing.Size(100, 20);
             this.razao_SocialTextBox.TabIndex = 4;
             // 
             // nome_FantasiaLabel
             // 
             nome_FantasiaLabel.AutoSize = true;
-            nome_FantasiaLabel.Location = new System.Drawing.Point(29, 110);
+            nome_FantasiaLabel.Location = new System.Drawing.Point(12, 90);
             nome_FantasiaLabel.Name = "nome_FantasiaLabel";
             nome_FantasiaLabel.Size = new System.Drawing.Size(81, 13);
             nome_FantasiaLabel.TabIndex = 5;
@@ -295,15 +295,15 @@
             // nome_FantasiaTextBox
             // 
             this.nome_FantasiaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Nome_Fantasia", true));
-            this.nome_FantasiaTextBox.Location = new System.Drawing.Point(135, 107);
+            this.nome_FantasiaTextBox.Location = new System.Drawing.Point(118, 87);
             this.nome_FantasiaTextBox.Name = "nome_FantasiaTextBox";
-            this.nome_FantasiaTextBox.Size = new System.Drawing.Size(111, 20);
+            this.nome_FantasiaTextBox.Size = new System.Drawing.Size(100, 20);
             this.nome_FantasiaTextBox.TabIndex = 6;
             // 
             // cNPJLabel
             // 
             cNPJLabel.AutoSize = true;
-            cNPJLabel.Location = new System.Drawing.Point(29, 136);
+            cNPJLabel.Location = new System.Drawing.Point(12, 116);
             cNPJLabel.Name = "cNPJLabel";
             cNPJLabel.Size = new System.Drawing.Size(37, 13);
             cNPJLabel.TabIndex = 7;
@@ -312,16 +312,16 @@
             // cNPJMaskedTextBox
             // 
             this.cNPJMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "CNPJ", true));
-            this.cNPJMaskedTextBox.Location = new System.Drawing.Point(135, 133);
+            this.cNPJMaskedTextBox.Location = new System.Drawing.Point(118, 113);
             this.cNPJMaskedTextBox.Mask = "00,000,000/0000-00";
             this.cNPJMaskedTextBox.Name = "cNPJMaskedTextBox";
-            this.cNPJMaskedTextBox.Size = new System.Drawing.Size(111, 20);
+            this.cNPJMaskedTextBox.Size = new System.Drawing.Size(100, 20);
             this.cNPJMaskedTextBox.TabIndex = 8;
             // 
             // enderecoLabel
             // 
             enderecoLabel.AutoSize = true;
-            enderecoLabel.Location = new System.Drawing.Point(29, 162);
+            enderecoLabel.Location = new System.Drawing.Point(12, 142);
             enderecoLabel.Name = "enderecoLabel";
             enderecoLabel.Size = new System.Drawing.Size(56, 13);
             enderecoLabel.TabIndex = 9;
@@ -330,15 +330,15 @@
             // enderecoTextBox
             // 
             this.enderecoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Endereco", true));
-            this.enderecoTextBox.Location = new System.Drawing.Point(135, 159);
+            this.enderecoTextBox.Location = new System.Drawing.Point(118, 139);
             this.enderecoTextBox.Name = "enderecoTextBox";
-            this.enderecoTextBox.Size = new System.Drawing.Size(111, 20);
+            this.enderecoTextBox.Size = new System.Drawing.Size(100, 20);
             this.enderecoTextBox.TabIndex = 10;
             // 
             // numLabel
             // 
             numLabel.AutoSize = true;
-            numLabel.Location = new System.Drawing.Point(29, 188);
+            numLabel.Location = new System.Drawing.Point(12, 168);
             numLabel.Name = "numLabel";
             numLabel.Size = new System.Drawing.Size(32, 13);
             numLabel.TabIndex = 11;
@@ -347,15 +347,15 @@
             // numTextBox
             // 
             this.numTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Num", true));
-            this.numTextBox.Location = new System.Drawing.Point(135, 185);
+            this.numTextBox.Location = new System.Drawing.Point(118, 165);
             this.numTextBox.Name = "numTextBox";
-            this.numTextBox.Size = new System.Drawing.Size(111, 20);
+            this.numTextBox.Size = new System.Drawing.Size(100, 20);
             this.numTextBox.TabIndex = 12;
             // 
             // bairroLabel
             // 
             bairroLabel.AutoSize = true;
-            bairroLabel.Location = new System.Drawing.Point(333, 58);
+            bairroLabel.Location = new System.Drawing.Point(280, 35);
             bairroLabel.Name = "bairroLabel";
             bairroLabel.Size = new System.Drawing.Size(37, 13);
             bairroLabel.TabIndex = 13;
@@ -364,15 +364,15 @@
             // bairroTextBox
             // 
             this.bairroTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Bairro", true));
-            this.bairroTextBox.Location = new System.Drawing.Point(439, 55);
+            this.bairroTextBox.Location = new System.Drawing.Point(386, 32);
             this.bairroTextBox.Name = "bairroTextBox";
-            this.bairroTextBox.Size = new System.Drawing.Size(111, 20);
+            this.bairroTextBox.Size = new System.Drawing.Size(100, 20);
             this.bairroTextBox.TabIndex = 14;
             // 
             // cidadeLabel
             // 
             cidadeLabel.AutoSize = true;
-            cidadeLabel.Location = new System.Drawing.Point(333, 84);
+            cidadeLabel.Location = new System.Drawing.Point(280, 61);
             cidadeLabel.Name = "cidadeLabel";
             cidadeLabel.Size = new System.Drawing.Size(43, 13);
             cidadeLabel.TabIndex = 15;
@@ -381,32 +381,33 @@
             // cidadeTextBox
             // 
             this.cidadeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Cidade", true));
-            this.cidadeTextBox.Location = new System.Drawing.Point(439, 81);
+            this.cidadeTextBox.Location = new System.Drawing.Point(386, 58);
             this.cidadeTextBox.Name = "cidadeTextBox";
-            this.cidadeTextBox.Size = new System.Drawing.Size(111, 20);
+            this.cidadeTextBox.Size = new System.Drawing.Size(100, 20);
             this.cidadeTextBox.TabIndex = 16;
             // 
             // foneLabel
             // 
             foneLabel.AutoSize = true;
-            foneLabel.Location = new System.Drawing.Point(333, 110);
+            foneLabel.Location = new System.Drawing.Point(280, 87);
             foneLabel.Name = "foneLabel";
             foneLabel.Size = new System.Drawing.Size(34, 13);
             foneLabel.TabIndex = 17;
             foneLabel.Text = "Fone:";
             // 
-            // foneTextBox
+            // foneMaskedTextBox
             // 
-            this.foneTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Fone", true));
-            this.foneTextBox.Location = new System.Drawing.Point(439, 107);
-            this.foneTextBox.Name = "foneTextBox";
-            this.foneTextBox.Size = new System.Drawing.Size(111, 20);
-            this.foneTextBox.TabIndex = 18;
+            this.foneMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Fone", true));
+            this.foneMaskedTextBox.Location = new System.Drawing.Point(386, 84);
+            this.foneMaskedTextBox.Mask = "0000-0000";
+            this.foneMaskedTextBox.Name = "foneMaskedTextBox";
+            this.foneMaskedTextBox.Size = new System.Drawing.Size(100, 20);
+            this.foneMaskedTextBox.TabIndex = 18;
             // 
             // nome_ContatoLabel
             // 
             nome_ContatoLabel.AutoSize = true;
-            nome_ContatoLabel.Location = new System.Drawing.Point(333, 136);
+            nome_ContatoLabel.Location = new System.Drawing.Point(280, 113);
             nome_ContatoLabel.Name = "nome_ContatoLabel";
             nome_ContatoLabel.Size = new System.Drawing.Size(78, 13);
             nome_ContatoLabel.TabIndex = 19;
@@ -415,15 +416,15 @@
             // nome_ContatoTextBox
             // 
             this.nome_ContatoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Nome_Contato", true));
-            this.nome_ContatoTextBox.Location = new System.Drawing.Point(439, 133);
+            this.nome_ContatoTextBox.Location = new System.Drawing.Point(386, 110);
             this.nome_ContatoTextBox.Name = "nome_ContatoTextBox";
-            this.nome_ContatoTextBox.Size = new System.Drawing.Size(111, 20);
+            this.nome_ContatoTextBox.Size = new System.Drawing.Size(100, 20);
             this.nome_ContatoTextBox.TabIndex = 20;
             // 
             // emailLabel
             // 
             emailLabel.AutoSize = true;
-            emailLabel.Location = new System.Drawing.Point(333, 162);
+            emailLabel.Location = new System.Drawing.Point(280, 139);
             emailLabel.Name = "emailLabel";
             emailLabel.Size = new System.Drawing.Size(35, 13);
             emailLabel.TabIndex = 21;
@@ -432,15 +433,15 @@
             // emailTextBox
             // 
             this.emailTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Email", true));
-            this.emailTextBox.Location = new System.Drawing.Point(439, 159);
+            this.emailTextBox.Location = new System.Drawing.Point(386, 136);
             this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(111, 20);
+            this.emailTextBox.Size = new System.Drawing.Size(100, 20);
             this.emailTextBox.TabIndex = 22;
             // 
             // siteLabel
             // 
             siteLabel.AutoSize = true;
-            siteLabel.Location = new System.Drawing.Point(333, 188);
+            siteLabel.Location = new System.Drawing.Point(280, 165);
             siteLabel.Name = "siteLabel";
             siteLabel.Size = new System.Drawing.Size(28, 13);
             siteLabel.TabIndex = 23;
@@ -449,9 +450,9 @@
             // siteTextBox
             // 
             this.siteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fornecedoresBindingSource, "Site", true));
-            this.siteTextBox.Location = new System.Drawing.Point(439, 185);
+            this.siteTextBox.Location = new System.Drawing.Point(386, 162);
             this.siteTextBox.Name = "siteTextBox";
-            this.siteTextBox.Size = new System.Drawing.Size(111, 20);
+            this.siteTextBox.Size = new System.Drawing.Size(100, 20);
             this.siteTextBox.TabIndex = 24;
             // 
             // fornecedoresDataGridView
@@ -472,9 +473,9 @@
             this.dataGridViewTextBoxColumn11,
             this.dataGridViewTextBoxColumn12});
             this.fornecedoresDataGridView.DataSource = this.fornecedoresBindingSource;
-            this.fornecedoresDataGridView.Location = new System.Drawing.Point(12, 227);
+            this.fornecedoresDataGridView.Location = new System.Drawing.Point(8, 219);
             this.fornecedoresDataGridView.Name = "fornecedoresDataGridView";
-            this.fornecedoresDataGridView.Size = new System.Drawing.Size(1005, 281);
+            this.fornecedoresDataGridView.Size = new System.Drawing.Size(1009, 289);
             this.fornecedoresDataGridView.TabIndex = 25;
             // 
             // dataGridViewTextBoxColumn1
@@ -572,7 +573,7 @@
             this.Controls.Add(cidadeLabel);
             this.Controls.Add(this.cidadeTextBox);
             this.Controls.Add(foneLabel);
-            this.Controls.Add(this.foneTextBox);
+            this.Controls.Add(this.foneMaskedTextBox);
             this.Controls.Add(nome_ContatoLabel);
             this.Controls.Add(this.nome_ContatoTextBox);
             this.Controls.Add(emailLabel);
@@ -621,7 +622,7 @@
         private System.Windows.Forms.TextBox numTextBox;
         private System.Windows.Forms.TextBox bairroTextBox;
         private System.Windows.Forms.TextBox cidadeTextBox;
-        private System.Windows.Forms.TextBox foneTextBox;
+        private System.Windows.Forms.MaskedTextBox foneMaskedTextBox;
         private System.Windows.Forms.TextBox nome_ContatoTextBox;
         private System.Windows.Forms.TextBox emailTextBox;
         private System.Windows.Forms.TextBox siteTextBox;
