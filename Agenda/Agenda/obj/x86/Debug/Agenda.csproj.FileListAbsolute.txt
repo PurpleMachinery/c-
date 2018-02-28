@@ -1,0 +1,22 @@
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Agenda\bin\Debug\Agenda.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Agenda\bin\Debug\Agenda.pdb
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Agenda\obj\x86\Debug\Agenda.frmPrincipal.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Agenda\obj\x86\Debug\Agenda.Properties.Resources.resources
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Agenda\obj\x86\Debug\Agenda.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Agenda\obj\x86\Debug\Agenda.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\Agenda\obj\x86\Debug\Agenda.pdb
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\obj\x86\Debug\Agenda.exe
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\obj\x86\Debug\Agenda.pdb
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\bin\Debug\Agenda.exe.config
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\bin\Debug\bdAgendaDataSet.cs
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\bin\Debug\bdAgendaDataSet.Designer.cs
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\bin\Debug\bdAgendaDataSet.xsc
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\bin\Debug\bdAgendaDataSet.xsd
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\bin\Debug\bdAgendaDataSet.xss
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\bin\Debug\Agenda.exe
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\bin\Debug\Agenda.pdb
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\obj\x86\Debug\Agenda.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\obj\x86\Debug\Agenda.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\obj\x86\Debug\Agenda.frmAgenda.resources
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\obj\x86\Debug\Agenda.csprojResolveAssemblyReference.cache
+C:\Users\Aluno_2\Desktop\Agenda\Agenda\obj\x86\Debug\Agenda.frmMenu.resources
