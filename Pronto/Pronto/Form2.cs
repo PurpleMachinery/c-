@@ -37,6 +37,7 @@ namespace Pronto
             double b = a - ((a / 100) * 26);
             b += 450;
             txbSalarioBruto.Text = "" + b;
+            b = b;
         }
     }
 }
