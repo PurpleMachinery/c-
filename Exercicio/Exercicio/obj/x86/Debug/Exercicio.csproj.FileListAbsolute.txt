@@ -1,0 +1,17 @@
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\Exercicio.exe.config
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\Exercicio.exe
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\Exercicio.pdb
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\obj\x86\Debug\Exercicio.Form1.resources
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\obj\x86\Debug\Exercicio.Properties.Resources.resources
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\obj\x86\Debug\Exercicio.csproj.GenerateResource.Cache
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\obj\x86\Debug\Exercicio.exe
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\obj\x86\Debug\Exercicio.pdb
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\funcDataSet.Designer.cs
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\funcDataSet.xsc
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\funcDataSet.xsd
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\funcDataSet.xss
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\obj\x86\Debug\Exercicio.csprojResolveAssemblyReference.cache
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\funcDataSet.cs
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\Properties\Resources.Designer.cs
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\Properties\Settings.Designer.cs
+C:\Users\Aluno_2\Desktop\c-\Exercicio\Exercicio\bin\Debug\app.config
